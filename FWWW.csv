@@ -1,49 +1,1057 @@
-,game_date,game_ids,team,venue,goal,attempts,on_target,off_target,blocked,corners,offsides,ball_possession,pass_accuracy,passes,passes_completed,distance,tackles,blocks,clearance,yellow_cards,direct_red_cards,indirect_red_cards,fouls
-0,2019-06-07 07:00:00,300438238,Korea Republic,away,0.0,4.0,1.0,2.0,1.0,1.0,0.0,0.4,0.74,305.0,227.0,105.0,15.0,5.0,17.0,0.0,0.0,0.0,11.0
-1,2019-06-07 07:00:00,300438238,France,home,4.0,21.0,8.0,8.0,5.0,13.0,2.0,0.6,0.87,619.0,540.0,103.0,10.0,1.0,7.0,0.0,0.0,0.0,11.0
-2,2019-06-08 01:00:00,300438216,China PR,away,0.0,4.0,1.0,2.0,1.0,3.0,1.0,0.38,0.61,353.0,214.0,100.0,28.0,5.0,26.0,4.0,0.0,0.0,19.0
-3,2019-06-08 01:00:00,300438216,Germany,home,1.0,18.0,5.0,8.0,5.0,8.0,3.0,0.62,0.74,480.0,356.0,104.0,13.0,1.0,14.0,1.0,0.0,0.0,7.0
-4,2019-06-08 04:00:00,300438234,South Africa,away,1.0,4.0,2.0,0.0,2.0,2.0,0.0,0.28,0.54,203.0,110.0,97.0,19.0,8.0,34.0,2.0,0.0,1.0,13.0
-5,2019-06-08 04:00:00,300438234,Spain,home,3.0,25.0,12.0,5.0,8.0,5.0,3.0,0.72,0.81,594.0,483.0,101.0,6.0,2.0,12.0,1.0,0.0,0.0,12.0
-6,2019-06-08 07:00:00,300438213,Nigeria,away,0.0,9.0,1.0,6.0,2.0,5.0,1.0,0.43,0.64,303.0,195.0,89.0,8.0,2.0,23.0,2.0,0.0,0.0,10.0
-7,2019-06-08 07:00:00,300438213,Norway,home,3.0,10.0,4.0,4.0,2.0,5.0,5.0,0.57,0.78,431.0,338.0,103.0,6.0,2.0,21.0,0.0,0.0,0.0,5.0
-8,2019-06-09 01:30:00,300438219,Jamaica,away,0.0,13.0,3.0,6.0,4.0,3.0,3.0,0.43,0.68,255.0,172.0,100.0,10.0,4.0,33.0,1.0,0.0,0.0,9.0
-9,2019-06-09 01:30:00,300438219,Brazil,home,3.0,18.0,6.0,8.0,4.0,10.0,2.0,0.57,0.77,443.0,343.0,101.0,20.0,4.0,36.0,2.0,0.0,0.0,14.0
-10,2019-06-09 04:00:00,300438214,Scotland,away,1.0,8.0,4.0,2.0,2.0,2.0,1.0,0.44,0.77,380.0,294.0,101.0,15.0,2.0,21.0,2.0,0.0,0.0,8.0
-11,2019-06-09 04:00:00,300438214,England,home,2.0,14.0,6.0,6.0,2.0,9.0,3.0,0.56,0.84,521.0,436.0,99.0,14.0,2.0,7.0,0.0,0.0,0.0,8.0
-12,2019-06-09 11:00:00,300438227,Italy,away,2.0,5.0,3.0,1.0,1.0,3.0,8.0,0.43,0.59,227.0,133.0,102.0,11.0,3.0,17.0,3.0,0.0,0.0,19.0
-13,2019-06-09 11:00:00,300438227,Australia,home,1.0,17.0,7.0,7.0,3.0,6.0,4.0,0.57,0.79,437.0,347.0,104.0,1.0,1.0,8.0,1.0,0.0,0.0,20.0
-14,2019-06-10 04:00:00,300438217,Japan,away,0.0,8.0,3.0,5.0,0.0,5.0,0.0,0.61,0.86,681.0,583.0,104.0,14.0,2.0,10.0,3.0,0.0,0.0,6.0
-15,2019-06-10 04:00:00,300438217,Argentina,home,0.0,5.0,1.0,2.0,2.0,0.0,2.0,0.39,0.66,253.0,166.0,97.0,28.0,0.0,35.0,0.0,0.0,0.0,6.0
-16,2019-06-10 07:00:00,300438218,Cameroon,away,0.0,5.0,1.0,3.0,1.0,4.0,3.0,0.35,0.53,189.0,101.0,101.0,9.0,6.0,20.0,2.0,0.0,0.0,12.0
-17,2019-06-10 07:00:00,300438218,Canada,home,1.0,16.0,4.0,6.0,6.0,10.0,3.0,0.65,0.8,583.0,469.0,106.0,6.0,1.0,8.0,0.0,0.0,0.0,10.0
-18,2019-06-11 01:00:00,300438237,Netherlands,away,1.0,17.0,3.0,8.0,6.0,8.0,1.0,0.69,0.83,664.0,553.0,107.0,5.0,1.0,6.0,0.0,0.0,0.0,8.0
-19,2019-06-11 01:00:00,300438237,New Zealand,home,0.0,6.0,3.0,2.0,1.0,1.0,1.0,0.31,0.58,287.0,168.0,111.0,15.0,6.0,16.0,0.0,0.0,0.0,4.0
-20,2019-06-11 04:00:00,300438224,Sweden,away,2.0,25.0,7.0,11.0,7.0,11.0,3.0,0.64,0.81,558.0,450.0,111.0,11.0,0.0,16.0,1.0,0.0,0.0,13.0
-21,2019-06-11 04:00:00,300438224,Chile,home,0.0,6.0,1.0,5.0,0.0,0.0,1.0,0.36,0.56,250.0,139.0,109.0,28.0,7.0,23.0,2.0,0.0,0.0,10.0
-22,2019-06-11 07:00:00,300438226,Thailand,away,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.25,0.61,209.0,128.0,98.0,24.0,9.0,48.0,1.0,0.0,0.0,5.0
-23,2019-06-11 07:00:00,300438226,USA,home,13.0,39.0,21.0,9.0,9.0,10.0,3.0,0.75,0.83,663.0,553.0,105.0,6.0,0.0,5.0,0.0,0.0,0.0,5.0
-24,2019-06-12 01:00:00,300438222,Korea Republic,away,0.0,15.0,7.0,3.0,5.0,6.0,3.0,0.58,0.82,518.0,425.0,104.0,11.0,3.0,10.0,2.0,0.0,0.0,9.0
-25,2019-06-12 01:00:00,300438222,Nigeria,home,2.0,12.0,2.0,7.0,3.0,3.0,1.0,0.42,0.7,271.0,189.0,99.0,6.0,5.0,10.0,1.0,0.0,0.0,12.0
-26,2019-06-12 04:00:00,300438243,Spain,away,0.0,16.0,2.0,6.0,8.0,7.0,3.0,0.59,0.77,505.0,387.0,105.0,4.0,1.0,10.0,0.0,0.0,0.0,9.0
-27,2019-06-12 04:00:00,300438243,Germany,home,1.0,15.0,8.0,6.0,1.0,2.0,4.0,0.41,0.66,281.0,187.0,112.0,12.0,8.0,37.0,1.0,0.0,0.0,8.0
-28,2019-06-12 07:00:00,300438220,Norway,away,1.0,5.0,1.0,3.0,1.0,5.0,1.0,0.5,0.73,391.0,285.0,105.0,24.0,8.0,58.0,1.0,0.0,0.0,8.0
-29,2019-06-12 07:00:00,300438220,France,home,2.0,16.0,5.0,3.0,8.0,9.0,2.0,0.5,0.72,318.0,230.0,104.0,12.0,1.0,28.0,1.0,0.0,0.0,7.0
-30,2019-06-13 04:00:00,300438225,Brazil,away,2.0,12.0,4.0,4.0,4.0,3.0,0.0,0.49,0.75,382.0,285.0,106.0,21.0,1.0,53.0,3.0,0.0,0.0,7.0
-31,2019-06-13 04:00:00,300438225,Australia,home,3.0,9.0,5.0,3.0,1.0,4.0,1.0,0.51,0.79,495.0,395.0,105.0,14.0,4.0,33.0,0.0,0.0,0.0,7.0
-32,2019-06-13 07:00:00,300438231,China PR,away,1.0,17.0,3.0,9.0,5.0,7.0,2.0,0.53,0.66,421.0,277.0,105.0,11.0,0.0,26.0,0.0,0.0,0.0,12.0
-33,2019-06-13 07:00:00,300438231,South Africa,home,0.0,5.0,1.0,4.0,0.0,3.0,2.0,0.47,0.65,413.0,270.0,103.0,22.0,5.0,31.0,1.0,0.0,0.0,3.0
-34,2019-06-14 01:00:00,300438244,Scotland,away,1.0,12.0,4.0,6.0,2.0,6.0,3.0,0.51,0.81,458.0,372.0,104.0,13.0,4.0,13.0,1.0,0.0,0.0,6.0
-35,2019-06-14 01:00:00,300438244,Japan,home,2.0,18.0,6.0,8.0,4.0,6.0,0.0,0.49,0.82,463.0,382.0,106.0,14.0,2.0,5.0,1.0,0.0,0.0,11.0
-36,2019-06-14 04:00:00,300438230,Italy,away,5.0,13.0,6.0,5.0,2.0,7.0,1.0,0.57,0.76,441.0,334.0,99.0,22.0,7.0,17.0,0.0,0.0,0.0,3.0
-37,2019-06-14 04:00:00,300438230,Jamaica,home,0.0,12.0,2.0,3.0,7.0,4.0,0.0,0.43,0.74,329.0,243.0,101.0,22.0,2.0,34.0,2.0,0.0,0.0,9.0
-38,2019-06-14 07:00:00,300438223,Argentina,away,0.0,3.0,2.0,1.0,0.0,0.0,2.0,0.36,0.54,174.0,94.0,101.0,4.0,4.0,10.0,2.0,0.0,0.0,10.0
-39,2019-06-14 07:00:00,300438223,England,home,1.0,19.0,7.0,8.0,4.0,7.0,3.0,0.64,0.83,534.0,441.0,101.0,11.0,0.0,10.0,1.0,0.0,0.0,10.0
-40,2019-06-15 01:00:00,300438240,Cameroon,away,1.0,11.0,2.0,5.0,4.0,3.0,0.0,0.42,0.63,312.0,197.0,97.0,16.0,3.0,19.0,3.0,0.0,0.0,15.0
-41,2019-06-15 01:00:00,300438240,Netherlands,home,3.0,10.0,4.0,3.0,3.0,0.0,1.0,0.58,0.78,494.0,385.0,100.0,20.0,4.0,17.0,0.0,0.0,0.0,5.0
-42,2019-06-15 07:00:00,300438228,New Zealand,away,0.0,2.0,0.0,2.0,0.0,1.0,2.0,0.3,0.59,247.0,145.0,109.0,11.0,5.0,40.0,0.0,0.0,0.0,5.0
-43,2019-06-15 07:00:00,300438228,Canada,home,2.0,22.0,6.0,11.0,5.0,8.0,1.0,0.7,0.85,615.0,523.0,111.0,14.0,0.0,20.0,0.0,0.0,0.0,8.0
-44,2019-06-16 01:00:00,300438251,Thailand,away,1.0,5.0,3.0,2.0,0.0,0.0,1.0,0.34,0.66,215.0,142.0,101.0,22.0,3.0,29.0,2.0,0.0,0.0,5.0
-45,2019-06-16 01:00:00,300438251,Sweden,home,5.0,34.0,15.0,16.0,3.0,6.0,0.0,0.66,0.85,626.0,532.0,103.0,10.0,0.0,8.0,0.0,0.0,0.0,10.0
-46,2019-06-16 04:00:00,300438229,Chile,away,0.0,1.0,0.0,0.0,1.0,1.0,2.0,0.32,0.67,220.0,147.0,99.0,18.0,2.0,42.0,3.0,0.0,0.0,11.0
-47,2019-06-16 04:00:00,300438229,USA,home,3.0,26.0,9.0,14.0,3.0,15.0,1.0,0.68,0.84,566.0,475.0,103.0,12.0,2.0,15.0,2.0,0.0,0.0,15.0
+,game_date,game_id,event,team,venue,goals,fouls,yellow_cards,red_cards,offsides,corners,saves,possession,shots,shots_on_goal
+0,2008-06-19 07:00:00,241579,Women's International Friendly,Italy,away,0,,,,,,,,,
+1,2008-06-19 07:00:00,241579,Women's International Friendly,United States,home,2,,,,,,,,,
+2,2008-07-02 16:00:00,244655,Women's International Friendly,United States,away,4,,,,,,,,,
+3,2008-07-02 16:00:00,244655,Women's International Friendly,Norway,home,0,,,,,,,,,
+4,2008-07-05 07:00:00,247584,Women's International Friendly,United States,away,1,,,,,,,,,
+5,2008-07-05 07:00:00,247584,Women's International Friendly,Sweden,home,0,,,,,,,,,
+6,2008-07-13 07:00:00,247585,Women's International Friendly,Brazil,away,0,,,,,,,,,
+7,2008-07-13 07:00:00,247585,Women's International Friendly,United States,home,1,,,,,,,,,
+8,2008-08-06 09:00:00,251871,"2008 Women's Olympic Tournament, Groups",Canada,away,2,,,,,,,,,
+9,2008-08-06 09:00:00,251871,"2008 Women's Olympic Tournament, Groups",Argentina,home,1,,,,,,,,,
+10,2008-08-06 09:00:00,251872,"2008 Women's Olympic Tournament, Groups",Brazil,away,0,,,,,,,,,
+11,2008-08-06 09:00:00,251872,"2008 Women's Olympic Tournament, Groups",Germany,home,0,,,,,,,,,
+12,2008-08-06 09:00:00,251873,"2008 Women's Olympic Tournament, Groups",New Zealand,away,2,,,,,,,,,
+13,2008-08-06 09:00:00,251873,"2008 Women's Olympic Tournament, Groups",Japan,home,2,,,,,,,,,
+14,2008-08-06 11:45:00,251874,"2008 Women's Olympic Tournament, Groups",Sweden,away,1,,,,,,,,,
+15,2008-08-06 11:45:00,251874,"2008 Women's Olympic Tournament, Groups",China,home,2,,,,,,,,,
+16,2008-08-06 11:45:00,251875,"2008 Women's Olympic Tournament, Groups",Nigeria,away,0,,,,,,,,,
+17,2008-08-06 11:45:00,251875,"2008 Women's Olympic Tournament, Groups",North Korea,home,1,,,,,,,,,
+18,2008-08-06 11:45:00,251876,"2008 Women's Olympic Tournament, Groups",United States,away,0,,,,,,,,,
+19,2008-08-06 11:45:00,251876,"2008 Women's Olympic Tournament, Groups",Norway,home,2,,,,,,,,,
+20,2008-08-09 09:00:00,251877,"2008 Women's Olympic Tournament, Groups",Argentina,away,0,,,,,,,,,
+21,2008-08-09 09:00:00,251877,"2008 Women's Olympic Tournament, Groups",Sweden,home,1,,,,,,,,,
+22,2008-08-09 09:00:00,251878,"2008 Women's Olympic Tournament, Groups",Germany,away,1,,,,,,,,,
+23,2008-08-09 09:00:00,251878,"2008 Women's Olympic Tournament, Groups",Nigeria,home,0,,,,,,,,,
+24,2008-08-09 09:00:00,251879,"2008 Women's Olympic Tournament, Groups",Japan,away,0,,,,,,,,,
+25,2008-08-09 09:00:00,251879,"2008 Women's Olympic Tournament, Groups",United States,home,1,,,,,,,,,
+26,2008-08-09 11:45:00,251880,"2008 Women's Olympic Tournament, Groups",China,away,1,,,,,,,,,
+27,2008-08-09 11:45:00,251880,"2008 Women's Olympic Tournament, Groups",Canada,home,1,,,,,,,,,
+28,2008-08-09 11:45:00,251881,"2008 Women's Olympic Tournament, Groups",North Korea,away,1,,,,,,,,,
+29,2008-08-09 11:45:00,251881,"2008 Women's Olympic Tournament, Groups",Brazil,home,2,,,,,,,,,
+30,2008-08-09 11:45:00,251882,"2008 Women's Olympic Tournament, Groups",Norway,away,1,,,,,,,,,
+31,2008-08-09 11:45:00,251882,"2008 Women's Olympic Tournament, Groups",New Zealand,home,0,,,,,,,,,
+32,2008-08-12 09:00:00,251883,"2008 Women's Olympic Tournament, Groups",Brazil,away,3,,,,,,,,,
+33,2008-08-12 09:00:00,251883,"2008 Women's Olympic Tournament, Groups",Nigeria,home,1,,,,,,,,,
+34,2008-08-12 09:00:00,251884,"2008 Women's Olympic Tournament, Groups",Germany,away,1,,,,,,,,,
+35,2008-08-12 09:00:00,251884,"2008 Women's Olympic Tournament, Groups",North Korea,home,0,,,,,,,,,
+36,2008-08-12 11:45:00,251885,"2008 Women's Olympic Tournament, Groups",Canada,away,1,,,,,,,,,
+37,2008-08-12 11:45:00,251885,"2008 Women's Olympic Tournament, Groups",Sweden,home,2,,,,,,,,,
+38,2008-08-12 11:45:00,251886,"2008 Women's Olympic Tournament, Groups",Japan,away,5,,,,,,,,,
+39,2008-08-12 11:45:00,251886,"2008 Women's Olympic Tournament, Groups",Norway,home,1,,,,,,,,,
+40,2008-08-12 11:45:00,251887,"2008 Women's Olympic Tournament, Groups",New Zealand,away,0,,,,,,,,,
+41,2008-08-12 11:45:00,251887,"2008 Women's Olympic Tournament, Groups",United States,home,4,,,,,,,,,
+42,2008-08-12 11:45:00,251888,"2008 Women's Olympic Tournament, Groups",Argentina,away,0,,,,,,,,,
+43,2008-08-12 11:45:00,251888,"2008 Women's Olympic Tournament, Groups",China,home,2,,,,,,,,,
+44,2008-08-15 10:00:00,253130,"2008 Women's Olympic Tournament, Quarter-finals",Canada,away,1,,,,,,,,,
+45,2008-08-15 10:00:00,253130,"2008 Women's Olympic Tournament, Quarter-finals",United States,home,2,,,,,,,,,
+46,2008-08-15 10:00:00,253131,"2008 Women's Olympic Tournament, Quarter-finals",Norway,away,1,,,,,,,,,
+47,2008-08-15 10:00:00,253131,"2008 Women's Olympic Tournament, Quarter-finals",Brazil,home,2,,,,,,,,,
+48,2008-08-15 13:00:00,253132,"2008 Women's Olympic Tournament, Quarter-finals",Germany,away,2,,,,,,,,,
+49,2008-08-15 13:00:00,253132,"2008 Women's Olympic Tournament, Quarter-finals",Sweden,home,0,,,,,,,,,
+50,2008-08-15 13:00:00,253133,"2008 Women's Olympic Tournament, Quarter-finals",Japan,away,2,,,,,,,,,
+51,2008-08-15 13:00:00,253133,"2008 Women's Olympic Tournament, Quarter-finals",China,home,0,,,,,,,,,
+52,2008-08-18 10:00:00,253297,"2008 Women's Olympic Tournament, Semi-finals",Germany,away,1,,,,,,,,,
+53,2008-08-18 10:00:00,253297,"2008 Women's Olympic Tournament, Semi-finals",Brazil,home,4,,,,,,,,,
+54,2008-08-18 13:00:00,253298,"2008 Women's Olympic Tournament, Semi-finals",United States,away,4,,,,,,,,,
+55,2008-08-18 13:00:00,253298,"2008 Women's Olympic Tournament, Semi-finals",Japan,home,2,,,,,,,,,
+56,2008-08-21 10:00:00,253328,"2008 Women's Olympic Tournament, Bronze Medal",Japan,away,0,,,,,,,,,
+57,2008-08-21 10:00:00,253328,"2008 Women's Olympic Tournament, Bronze Medal",Germany,home,2,,,,,,,,,
+58,2008-08-21 13:00:00,253329,"2008 Women's Olympic Tournament, Gold Medal",United States,away,1,,,,,,,,,
+59,2008-08-21 13:00:00,253329,"2008 Women's Olympic Tournament, Gold Medal",Brazil,home,0,,,,,,,,,
+60,2008-12-17 08:00:00,259471,Women's International Friendly,China,away,0,,,,,,,,,
+61,2008-12-17 08:00:00,259471,Women's International Friendly,United States,home,1,,,,,,,,,
+62,2008-12-14 02:00:00,259472,Women's International Friendly,China,away,0,,,,,,,,,
+63,2008-12-14 02:00:00,259472,Women's International Friendly,United States,home,1,,,,,,,,,
+64,2009-03-09 11:00:00,264912,"2009 Algarve Cup, Groups",Norway,away,0,,,,,,,,,
+65,2009-03-09 11:00:00,264912,"2009 Algarve Cup, Groups",United States,home,1,,,,,,,,,
+66,2009-03-11 07:00:00,264998,"2009 Algarve Cup, Groups",Sweden,away,1,,,,,,,,,
+67,2009-03-11 07:00:00,264998,"2009 Algarve Cup, Groups",United States,home,1,,,,,,,,,
+68,2009-07-19 07:00:00,276248,Women's International Friendly,Canada,away,0,,,,,,,,,
+69,2009-07-19 07:00:00,276248,Women's International Friendly,United States,home,1,,,,,,,,,
+70,2009-07-22 07:00:00,276390,Women's International Friendly,Canada,away,0,,,,,,,,,
+71,2009-07-22 07:00:00,276390,Women's International Friendly,United States,home,1,,,,,,,,,
+72,2011-06-26 16:00:00,315132,"Copa Mundial Femenina 2011, Group Stage 2011",Canada,away,1,7,0,0,1,6,7,0.51,6.0,1.0
+73,2011-06-26 16:00:00,315132,"Copa Mundial Femenina 2011, Group Stage 2011",Germany,home,2,13,2,0,3,5,0,0.49,21.0,9.0
+74,2011-06-26 13:00:00,315133,"Women's World Cup 2011, Group Stage 2011",France,away,1,12,0,0,4,9,0,0.52,15.0,7.0
+75,2011-06-26 13:00:00,315133,"Women's World Cup 2011, Group Stage 2011",Nigeria,home,0,10,0,0,0,7,6,0.48,7.0,0.0
+76,2011-06-30 18:45:00,315134,"Women's World Cup 2011, Group Stage 2011",Nigeria,away,0,13,1,0,0,5,5,0.49,7.0,1.0
+77,2011-06-30 18:45:00,315134,"Women's World Cup 2011, Group Stage 2011",Germany,home,1,10,1,0,4,3,1,0.51,10.0,6.0
+78,2011-06-30 16:00:00,315135,"Copa Mundial Femenina 2011, Group Stage 2011",France,away,4,15,1,0,3,6,0,0.54,23.0,10.0
+79,2011-06-30 16:00:00,315135,"Copa Mundial Femenina 2011, Group Stage 2011",Canada,home,0,5,1,0,2,3,6,0.46,7.0,0.0
+80,2011-07-05 18:45:00,315136,"Women's World Cup 2011, Group Stage 2011",Germany,away,4,10,2,0,4,5,3,0.54,14.0,9.0
+81,2011-07-05 18:45:00,315136,"Women's World Cup 2011, Group Stage 2011",France,home,2,16,3,1,0,5,5,0.46,9.0,5.0
+82,2011-07-05 18:45:00,315137,"Women's World Cup 2011, Group Stage 2011",Nigeria,away,1,7,1,0,2,6,2,0.56,15.0,5.0
+83,2011-07-05 18:45:00,315137,"Women's World Cup 2011, Group Stage 2011",Canada,home,0,9,0,0,2,3,4,0.44,8.0,2.0
+84,2011-06-27 13:00:00,315138,"Women's World Cup 2011, Group Stage 2011",New Zealand,away,1,15,3,0,6,3,4,0.39,5.0,1.0
+85,2011-06-27 13:00:00,315138,"Women's World Cup 2011, Group Stage 2011",Japan,home,2,5,0,0,3,6,0,0.61,15.0,6.0
+86,2011-06-27 16:00:00,315139,"Women's World Cup 2011, Group Stage 2011",England,away,1,11,1,0,0,5,1,0.49,15.0,5.0
+87,2011-06-27 16:00:00,315139,"Women's World Cup 2011, Group Stage 2011",Mexico,home,1,8,1,0,2,5,4,0.51,10.0,2.0
+88,2011-07-01 13:00:00,315140,"Women's World Cup 2011, Group Stage 2011",Mexico,away,0,3,0,0,1,1,3,0.44,9.0,3.0
+89,2011-07-01 13:00:00,315140,"Women's World Cup 2011, Group Stage 2011",Japan,home,4,10,0,0,1,7,3,0.56,14.0,7.0
+90,2011-07-01 16:15:00,315141,"Women's World Cup 2011, Group Stage 2011",England,away,2,9,0,0,6,9,3,0.54,16.0,5.0
+91,2011-07-01 16:15:00,315141,"Women's World Cup 2011, Group Stage 2011",New Zealand,home,1,20,0,0,0,4,3,0.46,9.0,4.0
+92,2011-07-05 16:15:00,315142,"Copa Mundial Femenina 2011, Group Stage 2011",Japan,away,0,7,0,0,2,7,2,0.55,14.0,3.0
+93,2011-07-05 16:15:00,315142,"Copa Mundial Femenina 2011, Group Stage 2011",England,home,2,7,0,0,2,3,3,0.45,10.0,4.0
+94,2011-07-05 16:15:00,315143,"Women's World Cup 2011, Group Stage 2011",Mexico,away,2,7,1,0,0,2,2,0.47,10.0,4.0
+95,2011-07-05 16:15:00,315143,"Women's World Cup 2011, Group Stage 2011",New Zealand,home,2,13,1,0,0,7,2,0.53,19.0,4.0
+96,2011-06-28 13:00:00,315156,"Women's World Cup 2011, Group Stage 2011",Sweden,away,1,17,1,0,4,7,1,0.45,13.0,6.0
+97,2011-06-28 13:00:00,315156,"Women's World Cup 2011, Group Stage 2011",Colombia,home,0,4,0,0,1,2,6,0.55,8.0,2.0
+98,2011-07-02 12:00:00,315159,"Women's World Cup 2011, Group Stage 2011",Sweden,away,1,12,1,0,2,5,2,0.47,14.0,5.0
+99,2011-07-02 12:00:00,315159,"Women's World Cup 2011, Group Stage 2011",North Korea,home,0,6,0,0,3,8,4,0.53,7.0,2.0
+100,2011-07-06 18:45:00,315160,"Women's World Cup 2011, Group Stage 2011",United States,away,1,8,1,0,4,3,3,0.53,20.0,6.0
+101,2011-07-06 18:45:00,315160,"Women's World Cup 2011, Group Stage 2011",Sweden,home,2,16,1,0,5,6,5,0.47,9.0,3.0
+102,2011-06-29 16:15:00,315162,"Women's World Cup 2011, Group Stage 2011",Australia,away,0,7,0,0,0,4,3,0.52,12.0,3.0
+103,2011-06-29 16:15:00,315162,"Women's World Cup 2011, Group Stage 2011",Brazil,home,1,8,0,0,2,2,3,0.48,14.0,4.0
+104,2011-06-29 13:00:00,315163,"Women's World Cup 2011, Group Stage 2011",Equatorial Guinea Women,away,0,2,0,0,2,3,3,0.45,20.0,8.0
+105,2011-06-29 13:00:00,315163,"Women's World Cup 2011, Group Stage 2011",Norway,home,1,7,2,0,1,13,8,0.55,18.0,4.0
+106,2011-07-03 16:15:00,315164,"Women's World Cup 2011, Group Stage 2011",Norway,away,0,6,0,0,1,6,3,0.47,10.0,3.0
+107,2011-07-03 16:15:00,315164,"Women's World Cup 2011, Group Stage 2011",Brazil,home,3,5,1,0,0,6,3,0.53,11.0,6.0
+108,2011-07-03 12:00:00,315165,"Women's World Cup 2011, Group Stage 2011",Equatorial Guinea Women,away,2,18,3,0,1,2,3,0.39,8.0,4.0
+109,2011-07-03 12:00:00,315165,"Women's World Cup 2011, Group Stage 2011",Australia,home,3,6,1,0,0,6,2,0.61,14.0,6.0
+110,2011-07-06 16:00:00,315166,"Copa Mundial Femenina 2011, Group Stage 2011",Brazil,away,3,14,2,0,1,6,2,0.62,14.0,6.0
+111,2011-07-06 16:00:00,315166,"Copa Mundial Femenina 2011, Group Stage 2011",Equatorial Guinea Women,home,0,21,3,0,2,8,3,0.38,8.0,2.0
+112,2011-07-06 16:00:00,315167,"Copa Mundial Femenina 2011, Group Stage 2011",Norway,away,1,12,1,0,2,2,3,0.5,14.0,5.0
+113,2011-07-06 16:00:00,315167,"Copa Mundial Femenina 2011, Group Stage 2011",Australia,home,2,10,2,0,4,5,4,0.5,14.0,5.0
+114,2011-07-09 18:45:00,323147,"Women's World Cup 2011, Quarter-finals",Japan,away,1,20,4,0,1,5,4,0.54,9.0,2.0
+115,2011-07-09 18:45:00,323147,"Women's World Cup 2011, Quarter-finals",Germany,home,0,13,1,0,1,7,1,0.46,23.0,4.0
+116,2011-07-09 16:00:00,323148,"Women's World Cup 2011, Quarter-finals",France,away,1,10,0,0,2,16,2,0.51,33.0,11.0
+117,2011-07-09 16:00:00,323148,"Women's World Cup 2011, Quarter-finals",England,home,1,13,4,0,3,7,10,0.49,7.0,3.0
+118,2011-07-10 15:30:00,323673,"Women's World Cup 2011, Quarter-finals",United States,away,2,17,4,1,4,11,3,0.51,14.0,5.0
+119,2011-07-10 15:30:00,323673,"Women's World Cup 2011, Quarter-finals",Brazil,home,2,19,4,0,2,6,4,0.49,16.0,6.0
+120,2011-07-10 11:00:00,323674,"Women's World Cup 2011, Quarter-finals",Australia,away,1,5,2,0,2,9,3,0.51,12.0,3.0
+121,2011-07-10 11:00:00,323674,"Women's World Cup 2011, Quarter-finals",Sweden,home,3,20,2,0,3,3,2,0.49,15.0,6.0
+122,2011-07-13 18:45:00,324832,"Women's World Cup 2011, Semi-finals",Sweden,away,1,9,1,0,6,2,2,0.4,4.0,2.0
+123,2011-07-13 18:45:00,324832,"Women's World Cup 2011, Semi-finals",Japan,home,3,2,0,0,4,8,1,0.6,14.0,5.0
+124,2011-07-13 16:00:00,324833,"Women's World Cup 2011, Semi-finals",United States,away,3,12,0,0,2,5,7,0.45,11.0,5.0
+125,2011-07-13 16:00:00,324833,"Women's World Cup 2011, Semi-finals",France,home,1,10,1,0,4,10,2,0.55,25.0,8.0
+126,2011-07-17 18:45:00,325480,"Women's World Cup 2011, Final",United States,away,2,10,0,0,3,8,2,0.48,31.0,6.0
+127,2011-07-17 18:45:00,325480,"Women's World Cup 2011, Final",Japan,home,2,11,1,1,2,4,4,0.52,17.0,4.0
+128,2011-07-16 15:30:00,325481,"Women's World Cup 2011, Third Place",France,away,1,5,0,0,5,5,2,0.56,19.0,8.0
+129,2011-07-16 15:30:00,325481,"Women's World Cup 2011, Third Place",Sweden,home,2,8,0,1,5,7,7,0.44,10.0,4.0
+130,2012-07-31 18:45:00,349362,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Brazil,away,0,,,,,,,,,
+131,2012-07-31 18:45:00,349362,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Great Britain Women,home,1,,,,,,,,,
+132,2012-07-31 18:45:00,349363,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Cameroon,away,1,,,,,,,,,
+133,2012-07-31 18:45:00,349363,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",New Zealand,home,3,,,,,,,,,
+134,2012-07-31 16:15:00,349364,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Colombia,away,0,,,,,,,,,
+135,2012-07-31 16:15:00,349364,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",France,home,1,,,,,,,,,
+136,2012-07-31 16:15:00,349365,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",North Korea,away,0,,,,,,,,,
+137,2012-07-31 16:15:00,349365,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",United States,home,1,,,,,,,,,
+138,2012-07-31 13:30:00,349366,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",South Africa,away,0,,,,,,,,,
+139,2012-07-31 13:30:00,349366,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Japan,home,0,,,,,,,,,
+140,2012-07-31 13:30:00,349367,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Sweden,away,2,,,,,,,,,
+141,2012-07-31 13:30:00,349367,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Canada,home,2,,,,,,,,,
+142,2012-07-28 18:45:00,349368,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",North Korea,away,0,,,,,,,,,
+143,2012-07-28 18:45:00,349368,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",France,home,5,,,,,,,,,
+144,2012-07-28 16:15:00,349369,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Cameroon,away,0,,,,,,,,,
+145,2012-07-28 16:15:00,349369,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Great Britain Women,home,3,,,,,,,,,
+146,2012-07-28 16:00:00,349370,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Colombia,away,0,,,,,,,,,
+147,2012-07-28 16:00:00,349370,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",United States,home,3,,,,,,,,,
+148,2012-07-28 13:45:00,349371,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",South Africa,away,0,,,,,,,,,
+149,2012-07-28 13:45:00,349371,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Canada,home,3,,,,,,,,,
+150,2012-07-28 13:30:00,349372,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Brazil,away,1,,,,,,,,,
+151,2012-07-28 13:30:00,349372,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",New Zealand,home,0,,,,,,,,,
+152,2012-07-28 11:00:00,349373,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Sweden,away,0,,,,,,,,,
+153,2012-07-28 11:00:00,349373,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Japan,home,0,,,,,,,,,
+154,2012-07-25 18:45:00,349375,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",South Africa,away,1,,,,,,,,,
+155,2012-07-25 18:45:00,349375,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Sweden,home,4,,,,,,,,,
+156,2012-07-25 16:00:00,349376,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Canada,away,1,,,,,,,,,
+157,2012-07-25 16:00:00,349376,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Japan,home,2,,,,,,,,,
+158,2012-07-25 16:00:00,349377,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",France,away,2,8,0,0,3,6,2,0.52,11.0,3.0
+159,2012-07-25 16:00:00,349377,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",United States,home,4,8,0,0,3,6,1,0.48,10.0,7.0
+160,2012-07-25 15:00:00,349378,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",New Zealand,away,0,,,,,,,,,
+161,2012-07-25 15:00:00,349378,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Great Britain Women,home,1,,,,,,,,,
+162,2012-07-25 17:45:00,350182,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Brazil,away,5,,,,,,,,,
+163,2012-07-25 17:45:00,350182,"2012 Women's Olympic Tournament, 2012 Women's Olympic Group Stage",Cameroon,home,0,,,,,,,,,
+164,2012-08-03 18:30:00,352283,"2012 Women's Olympic Tournament, Quarter Final",Canada,away,2,,,,,,,,,
+165,2012-08-03 18:30:00,352283,"2012 Women's Olympic Tournament, Quarter Final",Great Britain Women,home,0,,,,,,,,,
+166,2012-08-03 16:00:00,352284,"2012 Women's Olympic Tournament, Quarter Final",Japan,away,2,,,,,,,,,
+167,2012-08-03 16:00:00,352284,"2012 Women's Olympic Tournament, Quarter Final",Brazil,home,0,,,,,,,,,
+168,2012-08-03 13:30:00,352285,"2012 Women's Olympic Tournament, Quarter Final",New Zealand,away,0,,,,,,,,,
+169,2012-08-03 13:30:00,352285,"2012 Women's Olympic Tournament, Quarter Final",United States,home,2,,,,,,,,,
+170,2012-08-03 11:00:00,352286,"2012 Women's Olympic Tournament, Quarter Final",France,away,2,,,,,,,,,
+171,2012-08-03 11:00:00,352286,"2012 Women's Olympic Tournament, Quarter Final",Sweden,home,1,,,,,,,,,
+172,2012-08-06 16:00:00,352946,"2012 Women's Olympic Tournament, Semi Final",Japan,away,2,,,,,,,,,
+173,2012-08-06 16:00:00,352946,"2012 Women's Olympic Tournament, Semi Final",France,home,1,,,,,,,,,
+174,2012-08-06 18:45:00,352947,"2012 Women's Olympic Tournament, Semi Final",United States,away,4,20,0,0,2,13,4,0.53,24.0,7.0
+175,2012-08-06 18:45:00,352947,"2012 Women's Olympic Tournament, Semi Final",Canada,home,3,22,2,0,0,5,3,0.47,9.0,7.0
+176,2012-08-09 18:45:00,353850,"2012 Women's Olympic Tournament, Gold Medal Final",Japan,away,1,,,,,,,,,
+177,2012-08-09 18:45:00,353850,"2012 Women's Olympic Tournament, Gold Medal Final",United States,home,2,,,,,,,,,
+178,2012-08-09 12:00:00,353851,"2012 Women's Olympic Tournament, Bronze Medal Final",France,away,0,,,,,,,,,
+179,2012-08-09 12:00:00,353851,"2012 Women's Olympic Tournament, Bronze Medal Final",Canada,home,1,,,,,,,,,
+180,2015-06-09 20:00:00,410191,"Women's World Cup 2015, Group Stage 2015",Costa Rica,away,1,15,0,0,1,0,6,0.44,3.0,2.0
+181,2015-06-09 20:00:00,410191,"Women's World Cup 2015, Group Stage 2015",Spain,home,1,13,1,0,2,8,1,0.56,19.0,7.0
+182,2015-06-09 17:00:00,410192,"Women's World Cup 2015, Group Stage 2015",England,away,0,8,1,0,0,3,3,0.42,3.0,1.0
+183,2015-06-09 17:00:00,410192,"Women's World Cup 2015, Group Stage 2015",France,home,1,8,0,0,0,6,1,0.58,16.0,4.0
+184,2015-06-09 23:00:00,410194,"Women's World Cup 2015, Group Stage 2015",South Korea,away,0,3,1,0,1,5,2,0.38,9.0,2.0
+185,2015-06-09 23:00:00,410194,"Women's World Cup 2015, Group Stage 2015",Brazil,home,2,9,0,0,2,7,2,0.62,14.0,4.0
+186,2015-06-08 23:00:00,410195,"Women's World Cup 2015, Group Stage 2015",Ecuador,away,0,13,3,1,1,1,8,0.47,7.0,2.0
+187,2015-06-08 23:00:00,410195,"Women's World Cup 2015, Group Stage 2015",Cameroon,home,6,16,1,0,5,7,2,0.53,25.0,14.0
+188,2015-06-08 20:00:00,410196,"Women's World Cup 2015, Group Stage 2015",Nigeria,away,3,4,0,0,4,5,2,0.53,14.0,6.0
+189,2015-06-08 20:00:00,410196,"Women's World Cup 2015, Group Stage 2015",Sweden,home,3,14,0,0,1,7,2,0.47,7.0,5.0
+190,2015-06-08 23:30:00,410197,"Women's World Cup 2015, Group Stage 2015",Australia,away,1,13,0,0,2,3,2,0.44,11.0,6.0
+191,2015-06-08 23:30:00,410197,"Women's World Cup 2015, Group Stage 2015",United States,home,3,17,2,0,2,0,5,0.56,12.0,5.0
+192,2015-06-09 02:00:00,410198,"Copa Mundial Femenina 2015, Group Stage 2015",Switzerland,away,0,11,3,0,2,6,2,0.55,13.0,3.0
+193,2015-06-09 02:00:00,410198,"Copa Mundial Femenina 2015, Group Stage 2015",Japan,home,1,10,0,0,2,5,3,0.45,15.0,3.0
+194,2015-06-07 20:00:00,410199,"Women's World Cup 2015, Group Stage 2015",Ivory Coast Women,away,0,29,6,0,1,5,7,0.39,4.0,2.0
+195,2015-06-07 20:00:00,410199,"Women's World Cup 2015, Group Stage 2015",Germany,home,10,10,0,0,2,12,1,0.61,29.0,17.0
+196,2015-06-07 17:00:00,410200,"Women's World Cup 2015, Group Stage 2015",Thailand,away,0,6,2,0,1,3,4,0.33,6.0,2.0
+197,2015-06-07 17:00:00,410200,"Women's World Cup 2015, Group Stage 2015",Norway,home,4,7,0,0,1,5,2,0.67,25.0,8.0
+198,2015-06-06 22:00:00,410201,"Women's World Cup 2015, Group Stage 2015",China,away,0,15,0,0,0,2,3,0.38,5.0,1.0
+199,2015-06-06 22:00:00,410201,"Women's World Cup 2015, Group Stage 2015",Canada,home,1,8,1,0,3,0,1,0.62,14.0,4.0
+200,2015-06-07 01:00:00,410202,"Women's World Cup 2015, Group Stage 2015",Netherlands,away,1,6,2,0,5,3,5,0.5,6.0,3.0
+201,2015-06-07 01:00:00,410202,"Women's World Cup 2015, Group Stage 2015",New Zealand,home,0,8,0,0,2,8,2,0.5,11.0,5.0
+202,2015-06-17 23:00:00,410203,"Women's World Cup 2015, Group Stage 2015",Brazil,away,1,12,0,0,3,7,1,0.64,20.0,9.0
+203,2015-06-17 23:00:00,410203,"Women's World Cup 2015, Group Stage 2015",Costa Rica,home,0,7,0,0,1,1,8,0.36,3.0,1.0
+204,2015-06-17 20:00:00,410204,"Women's World Cup 2015, Group Stage 2015",Colombia,away,1,14,3,0,1,2,3,0.46,11.0,2.0
+205,2015-06-17 20:00:00,410204,"Women's World Cup 2015, Group Stage 2015",England,home,2,14,1,0,1,5,1,0.54,13.0,6.0
+206,2015-06-17 20:00:00,410205,"Women's World Cup 2015, Group Stage 2015",France,away,5,8,0,0,4,5,1,0.61,19.0,5.0
+207,2015-06-17 20:00:00,410205,"Women's World Cup 2015, Group Stage 2015",Mexico,home,0,10,2,0,1,2,1,0.39,2.0,1.0
+208,2015-06-17 23:00:00,410206,"Women's World Cup 2015, Group Stage 2015",Spain,away,1,13,1,0,1,5,0,0.54,18.0,3.0
+209,2015-06-17 23:00:00,410206,"Women's World Cup 2015, Group Stage 2015",South Korea,home,2,9,1,0,0,3,2,0.46,6.0,2.0
+210,2015-06-16 21:00:00,410207,"Women's World Cup 2015, Group Stage 2015",Japan,away,1,22,1,0,3,9,2,0.66,20.0,8.0
+211,2015-06-16 21:00:00,410207,"Women's World Cup 2015, Group Stage 2015",Ecuador,home,0,10,2,0,0,0,7,0.34,3.0,2.0
+212,2015-06-17 00:00:00,410208,"Copa Mundial Femenina 2015, Group Stage 2015",United States,away,1,8,0,0,7,6,2,0.57,14.0,7.0
+213,2015-06-17 00:00:00,410208,"Copa Mundial Femenina 2015, Group Stage 2015",Nigeria,home,0,12,4,1,0,5,6,0.43,7.0,2.0
+214,2015-06-16 21:00:00,410209,"Copa Mundial Femenina 2015, Group Stage 2015",Cameroon,away,2,15,4,0,0,5,4,0.49,16.0,4.0
+215,2015-06-16 21:00:00,410209,"Copa Mundial Femenina 2015, Group Stage 2015",Switzerland,home,1,13,1,0,2,6,2,0.51,15.0,5.0
+216,2015-06-17 00:00:00,410210,"Copa Mundial Femenina 2015, Group Stage 2015",Sweden,away,1,7,0,0,0,6,2,0.52,11.0,4.0
+217,2015-06-17 00:00:00,410210,"Copa Mundial Femenina 2015, Group Stage 2015",Australia,home,1,6,0,0,3,1,3,0.48,11.0,3.0
+218,2015-06-15 23:30:00,410211,"Women's World Cup 2015, Group Stage 2015",New Zealand,away,2,16,2,0,1,10,4,0.49,14.0,4.0
+219,2015-06-15 23:30:00,410211,"Women's World Cup 2015, Group Stage 2015",China,home,2,10,2,0,1,7,2,0.51,9.0,6.0
+220,2015-06-15 20:00:00,410212,"Copa Mundial Femenina 2015, Group Stage 2015",Norway,away,3,13,1,0,6,3,7,0.54,16.0,9.0
+221,2015-06-15 20:00:00,410212,"Copa Mundial Femenina 2015, Group Stage 2015",Ivory Coast Women,home,1,10,1,0,1,3,6,0.46,16.0,8.0
+222,2015-06-15 23:30:00,410213,"Women's World Cup 2015, Group Stage 2015",Canada,away,1,7,1,0,1,3,4,0.46,16.0,5.0
+223,2015-06-15 23:30:00,410213,"Women's World Cup 2015, Group Stage 2015",Netherlands,home,1,12,1,0,0,4,4,0.54,16.0,5.0
+224,2015-06-15 20:00:00,410214,"Copa Mundial Femenina 2015, Group Stage 2015",Germany,away,4,11,0,0,3,14,0,0.65,36.0,16.0
+225,2015-06-15 20:00:00,410214,"Copa Mundial Femenina 2015, Group Stage 2015",Thailand,home,0,6,1,0,1,2,12,0.35,2.0,0.0
+226,2015-06-13 23:00:00,410215,"Women's World Cup 2015, Group Stage 2015",Costa Rica,away,2,12,0,0,0,1,5,0.47,11.0,2.0
+227,2015-06-13 23:00:00,410215,"Women's World Cup 2015, Group Stage 2015",South Korea,home,2,10,3,0,2,2,0,0.53,16.0,8.0
+228,2015-06-13 20:00:00,410216,"Copa Mundial Femenina 2015, Group Stage 2015",Mexico,away,1,9,1,0,1,3,8,0.4,20.0,7.0
+229,2015-06-13 20:00:00,410216,"Copa Mundial Femenina 2015, Group Stage 2015",England,home,2,6,1,0,2,4,6,0.6,23.0,10.0
+230,2015-06-13 17:00:00,410217,"Women's World Cup 2015, Group Stage 2015",Colombia,away,2,9,2,0,1,2,6,0.4,3.0,2.0
+231,2015-06-13 17:00:00,410217,"Women's World Cup 2015, Group Stage 2015",France,home,0,10,0,0,0,12,0,0.6,21.0,6.0
+232,2015-06-13 20:00:00,410218,"Copa Mundial Femenina 2015, Group Stage 2015",Spain,away,0,12,1,0,4,3,1,0.42,7.0,0.0
+233,2015-06-13 20:00:00,410218,"Copa Mundial Femenina 2015, Group Stage 2015",Brazil,home,1,12,1,0,0,6,0,0.58,13.0,2.0
+234,2015-06-13 02:00:00,410219,"Copa Mundial Femenina 2015, Group Stage 2015",Cameroon,away,1,14,1,0,3,6,0,0.43,20.0,3.0
+235,2015-06-13 02:00:00,410219,"Copa Mundial Femenina 2015, Group Stage 2015",Japan,home,2,3,0,0,2,2,2,0.57,4.0,2.0
+236,2015-06-13 00:00:00,410220,"Women's World Cup 2015, Group Stage 2015",Sweden,away,0,11,0,0,0,8,2,0.49,9.0,0.0
+237,2015-06-13 00:00:00,410220,"Women's World Cup 2015, Group Stage 2015",United States,home,0,6,0,0,1,10,0,0.51,12.0,2.0
+238,2015-06-12 21:00:00,410222,"Women's World Cup 2015, Group Stage 2015",Nigeria,away,0,19,2,0,0,5,3,0.49,12.0,3.0
+239,2015-06-12 21:00:00,410222,"Women's World Cup 2015, Group Stage 2015",Australia,home,2,11,0,0,1,2,2,0.51,13.0,5.0
+240,2015-06-12 01:00:00,410223,"Women's World Cup 2015, Group Stage 2015",New Zealand,away,0,18,2,0,2,5,6,0.41,5.0,1.0
+241,2015-06-12 01:00:00,410223,"Women's World Cup 2015, Group Stage 2015",Canada,home,0,16,1,0,1,8,1,0.59,10.0,6.0
+242,2015-06-11 20:00:00,410224,"Copa Mundial Femenina 2015, Group Stage 2015",Norway,away,1,13,0,0,1,4,7,0.48,4.0,3.0
+243,2015-06-11 20:00:00,410224,"Copa Mundial Femenina 2015, Group Stage 2015",Germany,home,1,7,1,0,0,3,2,0.52,27.0,8.0
+244,2015-06-11 22:00:00,410225,"Women's World Cup 2015, Group Stage 2015",Netherlands,away,0,12,0,0,3,3,8,0.4,8.0,3.0
+245,2015-06-11 22:00:00,410225,"Women's World Cup 2015, Group Stage 2015",China,home,1,5,0,0,2,7,3,0.6,27.0,10.0
+246,2015-06-11 23:00:00,410226,"Women's World Cup 2015, Group Stage 2015",Thailand,away,3,5,0,0,4,4,3,0.5,8.0,5.0
+247,2015-06-11 23:00:00,410226,"Women's World Cup 2015, Group Stage 2015",Ivory Coast Women,home,2,13,1,0,4,4,2,0.5,17.0,6.0
+248,2015-04-09 18:30:00,420049,Women's International Friendly,China,away,1,,,,,,,,,
+249,2015-04-09 18:30:00,420049,Women's International Friendly,England,home,2,,,,,,,,,
+250,2015-04-04 20:00:00,420050,Women's International Friendly,New Zealand,away,0,,,,,,,,,
+251,2015-04-04 20:00:00,420050,Women's International Friendly,United States,home,4,,,,,,,,,
+252,2015-03-11 16:30:00,420051,Women's International Friendly,England,away,1,,,,,,,,,
+253,2015-03-11 16:30:00,420051,Women's International Friendly,Canada,home,0,,,,,,,,,
+254,2015-03-11 16:00:00,420052,Women's International Friendly,France,away,0,,,,,,,,,
+255,2015-03-11 16:00:00,420052,Women's International Friendly,United States,home,2,,,,,,,,,
+256,2015-03-11 14:00:00,420053,Women's International Friendly,Czech Republic Women,away,2,,,,,,,,,
+257,2015-03-11 14:00:00,420053,Women's International Friendly,Australia,home,6,,,,,,,,,
+258,2015-03-09 18:30:00,420054,Women's International Friendly,Germany,away,3,,,,,,,,,
+259,2015-03-09 18:30:00,420054,Women's International Friendly,Brazil,home,1,,,,,,,,,
+260,2015-03-09 18:30:00,420055,Women's International Friendly,Iceland,away,0,,,,,,,,,
+261,2015-03-09 18:30:00,420055,Women's International Friendly,United States,home,0,,,,,,,,,
+262,2015-03-09 15:30:00,420056,Women's International Friendly,Australia,away,3,,,,,,,,,
+263,2015-03-09 15:30:00,420056,Women's International Friendly,Finland,home,0,,,,,,,,,
+264,2015-03-09 15:30:00,420057,Women's International Friendly,England,away,1,,,,,,,,,
+265,2015-03-09 15:30:00,420057,Women's International Friendly,Netherlands,home,1,,,,,,,,,
+266,2015-03-06 17:00:00,420058,Women's International Friendly,Switzerland,away,0,,,,,,,,,
+267,2015-03-06 17:00:00,420058,Women's International Friendly,United States,home,3,,,,,,,,,
+268,2015-03-06 15:30:00,420059,Women's International Friendly,England,away,3,,,,,,,,,
+269,2015-03-06 15:30:00,420059,Women's International Friendly,Australia,home,0,,,,,,,,,
+270,2015-03-04 19:00:00,420060,Women's International Friendly,United States,away,2,,,,,,,,,
+271,2015-03-04 19:00:00,420060,Women's International Friendly,Norway,home,1,,,,,,,,,
+272,2015-03-04 15:30:00,420061,Women's International Friendly,Netherlands,away,0,,,,,,,,,
+273,2015-03-04 15:30:00,420061,Women's International Friendly,Australia,home,1,,,,,,,,,
+274,2015-03-04 12:30:00,420062,Women's International Friendly,England,away,3,,,,,,,,,
+275,2015-03-04 12:30:00,420062,Women's International Friendly,Finland,home,1,,,,,,,,,
+276,2015-02-13 20:00:00,420063,Women's International Friendly,United States,away,1,,,,,,,,,
+277,2015-02-13 20:00:00,420063,Women's International Friendly,England,home,0,,,,,,,,,
+278,2015-02-12 06:00:00,420064,Women's International Friendly,Australia,away,3,,,,,,,,,
+279,2015-02-12 06:00:00,420064,Women's International Friendly,New Zealand,home,2,,,,,,,,,
+280,2015-02-10 02:30:00,420065,Women's International Friendly,Australia,away,2,,,,,,,,,
+281,2015-02-10 02:30:00,420065,Women's International Friendly,North Korea,home,1,,,,,,,,,
+282,2015-02-08 06:30:00,420066,Women's International Friendly,North Korea,away,1,,,,,,,,,
+283,2015-02-08 06:30:00,420066,Women's International Friendly,New Zealand,home,1,,,,,,,,,
+284,2015-05-30 20:30:00,420067,Women's International Friendly,South Korea,away,0,2,0,0,0,1,3,0.44,8.0,2.0
+285,2015-05-30 20:30:00,420067,Women's International Friendly,United States,home,0,12,1,0,2,3,2,0.56,13.0,3.0
+286,2015-05-21 08:30:00,420068,Women's International Friendly,Vietnam Women,away,0,,,,,,,,,
+287,2015-05-21 08:30:00,420068,Women's International Friendly,Australia,home,11,,,,,,,,,
+288,2015-05-18 01:00:00,420069,Women's International Friendly,Mexico,away,1,5,0,0,0,1,7,0.32,6.0,4.0
+289,2015-05-18 01:00:00,420069,Women's International Friendly,United States,home,5,9,0,0,1,7,3,0.68,29.0,12.0
+290,2015-05-10 18:30:00,420070,Women's International Friendly,Ireland,away,0,12,1,0,0,0,8,0.31,0.0,0.0
+291,2015-05-10 18:30:00,420070,Women's International Friendly,United States,home,3,9,0,0,4,19,0,0.69,29.0,11.0
+292,2015-05-29 23:00:00,420325,Women's International Friendly,England,away,0,,,,,,,,,
+293,2015-05-29 23:00:00,420325,Women's International Friendly,Canada,home,1,,,,,,,,,
+294,2015-07-05 23:00:00,422262,"Women's World Cup 2015, Final",Japan,away,2,10,2,0,1,3,2,0.52,12.0,4.0
+295,2015-07-05 23:00:00,422262,"Women's World Cup 2015, Final",United States,home,5,14,0,0,1,7,3,0.48,15.0,7.0
+296,2015-07-04 20:00:00,422263,"Copa Mundial Femenina 2015, Third Place",England,away,1,13,3,0,2,10,7,0.48,18.0,4.0
+297,2015-07-04 20:00:00,422263,"Copa Mundial Femenina 2015, Third Place",Germany,home,0,16,0,0,2,11,3,0.52,34.0,7.0
+298,2015-07-01 23:00:00,422264,"Copa Mundial Femenina 2015, Semi-finals",England,away,1,17,1,0,1,4,1,0.42,15.0,2.0
+299,2015-07-01 23:00:00,422264,"Copa Mundial Femenina 2015, Semi-finals",Japan,home,2,9,1,0,2,3,1,0.58,7.0,2.0
+300,2015-06-30 23:00:00,422265,"Women's World Cup 2015, Semi-finals",Germany,away,0,11,2,0,1,4,3,0.51,15.0,1.0
+301,2015-06-30 23:00:00,422265,"Women's World Cup 2015, Semi-finals",United States,home,2,10,2,0,1,8,1,0.49,12.0,5.0
+302,2015-06-27 23:30:00,422266,"Women's World Cup 2015, Quarter-finals",Canada,away,1,15,1,0,1,4,2,0.58,14.0,3.0
+303,2015-06-27 23:30:00,422266,"Women's World Cup 2015, Quarter-finals",England,home,2,21,1,0,0,2,2,0.42,8.0,4.0
+304,2015-06-27 20:00:00,422267,"Copa Mundial Femenina 2015, Quarter-finals",Japan,away,1,8,1,0,3,8,3,0.6,15.0,3.0
+305,2015-06-27 20:00:00,422267,"Copa Mundial Femenina 2015, Quarter-finals",Australia,home,0,8,0,0,1,0,2,0.4,8.0,3.0
+306,2015-06-26 23:30:00,422268,"Women's World Cup 2015, Quarter-finals",United States,away,1,11,0,0,7,4,2,0.56,17.0,4.0
+307,2015-06-26 23:30:00,422268,"Women's World Cup 2015, Quarter-finals",China,home,0,10,1,0,2,3,3,0.44,6.0,2.0
+308,2015-06-26 20:00:00,422269,"Copa Mundial Femenina 2015, Quarter-finals",France,away,1,19,2,0,2,7,6,0.49,24.0,4.0
+309,2015-06-26 20:00:00,422269,"Copa Mundial Femenina 2015, Quarter-finals",Germany,home,1,20,4,0,3,5,3,0.51,17.0,7.0
+310,2015-06-24 02:00:00,422270,"Copa Mundial Femenina 2015, Round of 16",Netherlands,away,1,6,0,0,2,4,1,0.52,12.0,2.0
+311,2015-06-24 02:00:00,422270,"Copa Mundial Femenina 2015, Round of 16",Japan,home,2,6,1,0,4,5,1,0.48,18.0,3.0
+312,2015-06-23 00:00:00,422271,"Women's World Cup 2015, Round of 16",Colombia,away,0,12,1,1,0,3,4,0.47,10.0,2.0
+313,2015-06-23 00:00:00,422271,"Women's World Cup 2015, Round of 16",United States,home,2,22,2,0,2,8,2,0.53,15.0,6.0
+314,2015-06-22 21:00:00,422272,"Copa Mundial Femenina 2015, Round of 16",England,away,2,5,0,0,1,7,4,0.49,12.0,3.0
+315,2015-06-22 21:00:00,422272,"Copa Mundial Femenina 2015, Round of 16",Norway,home,1,5,0,0,0,8,1,0.51,14.0,5.0
+316,2015-06-21 23:30:00,422273,"Copa Mundial Femenina 2015, Round of 16",Switzerland,away,0,10,1,0,1,5,1,0.56,5.0,2.0
+317,2015-06-21 23:30:00,422273,"Copa Mundial Femenina 2015, Round of 16",Canada,home,1,16,2,0,1,0,2,0.44,7.0,2.0
+318,2015-06-21 20:00:00,422274,"Copa Mundial Femenina 2015, Round of 16",South Korea,away,0,8,2,0,1,3,2,0.38,9.0,2.0
+319,2015-06-21 20:00:00,422274,"Copa Mundial Femenina 2015, Round of 16",France,home,3,17,1,0,1,3,3,0.62,12.0,5.0
+320,2015-06-21 17:00:00,422275,"Women's World Cup 2015, Round of 16",Australia,away,1,10,0,0,3,7,6,0.48,9.0,2.0
+321,2015-06-21 17:00:00,422275,"Women's World Cup 2015, Round of 16",Brazil,home,0,11,2,0,0,6,1,0.52,14.0,6.0
+322,2015-06-20 23:30:00,422276,"Copa Mundial Femenina 2015, Round of 16",Cameroon,away,0,17,0,0,2,5,0,0.5,20.0,4.0
+323,2015-06-20 23:30:00,422276,"Copa Mundial Femenina 2015, Round of 16",China,home,1,12,0,0,4,5,4,0.5,9.0,1.0
+324,2015-06-20 20:00:00,422277,"Copa Mundial Femenina 2015, Round of 16",Sweden,away,1,12,2,0,1,2,7,0.49,7.0,3.0
+325,2015-06-20 20:00:00,422277,"Copa Mundial Femenina 2015, Round of 16",Germany,home,4,9,1,0,2,7,2,0.51,25.0,11.0
+326,2015-07-20 00:30:00,427699,"Pan American Games 2015, Primera Fase",Brazil,away,2,,,,,,,,,
+327,2015-07-20 00:30:00,427699,"Pan American Games 2015, Primera Fase",Canada,home,0,,,,,,,,,
+328,2015-07-19 00:30:00,427701,"Pan American Games 2015, Primera Fase",Colombia,away,2,,,,,,,,,
+329,2015-07-19 00:30:00,427701,"Pan American Games 2015, Primera Fase",Argentina,home,0,,,,,,,,,
+330,2015-07-16 00:30:00,427703,"Pan American Games 2015, Primera Fase",Canada,away,0,,,,,,,,,
+331,2015-07-16 00:30:00,427703,"Pan American Games 2015, Primera Fase",Costa Rica,home,2,,,,,,,,,
+332,2015-07-15 21:30:00,427704,"Juegos Panamericanos 2015 – Mujeres, Primera Fase",Ecuador,away,1,,,,,,,,,
+333,2015-07-15 21:30:00,427704,"Juegos Panamericanos 2015 – Mujeres, Primera Fase",Brazil,home,7,,,,,,,,,
+334,2015-07-14 21:30:00,427705,"Pan American Games 2015, Primera Fase",Mexico,away,3,,,,,,,,,
+335,2015-07-14 21:30:00,427705,"Pan American Games 2015, Primera Fase",Argentina,home,1,,,,,,,,,
+336,2015-07-11 22:00:00,427707,"Pan American Games 2015, Primera Fase",Brazil,away,3,,,,,,,,,
+337,2015-07-11 22:00:00,427707,"Pan American Games 2015, Primera Fase",Costa Rica,home,0,,,,,,,,,
+338,2015-07-12 01:00:00,427708,"Juegos Panamericanos 2015 – Mujeres, Primera Fase",Ecuador,away,2,,,,,,,,,
+339,2015-07-12 01:00:00,427708,"Juegos Panamericanos 2015 – Mujeres, Primera Fase",Canada,home,5,,,,,,,,,
+340,2015-07-11 18:00:00,427710,"Juegos Panamericanos 2015 – Mujeres, Primera Fase",Trinidad and Tobago,away,2,,,,,,,,,
+341,2015-07-11 18:00:00,427710,"Juegos Panamericanos 2015 – Mujeres, Primera Fase",Argentina,home,2,,,,,,,,,
+342,2015-07-22 21:35:00,430595,"Juegos Panamericanos 2015 – Mujeres, Semifinales",Mexico,away,2,,,,,,,,,
+343,2015-07-22 21:35:00,430595,"Juegos Panamericanos 2015 – Mujeres, Semifinales",Brazil,home,4,,,,,,,,,
+344,2015-07-23 00:35:00,430596,"Pan American Games 2015, Semifinales",Canada,away,0,,,,,,,,,
+345,2015-07-23 00:35:00,430596,"Pan American Games 2015, Semifinales",Colombia,home,1,,,,,,,,,
+346,2015-09-20 18:30:00,430651,Women's International Friendly,Haiti Women,away,0,12,1,0,0,0,10,0.26,0.0,0.0
+347,2015-09-20 18:30:00,430651,Women's International Friendly,United States,home,8,6,0,0,1,11,0,0.74,39.0,18.0
+348,2015-09-17 23:00:00,430652,Women's International Friendly,Haiti Women,away,0,9,1,0,0,1,12,0.21,0.0,0.0
+349,2015-09-17 23:00:00,430652,Women's International Friendly,United States,home,5,4,0,0,7,9,0,0.79,40.0,17.0
+350,2015-07-25 22:35:00,431063,"Pan American Games 2015, Medalla de Oro",Colombia,away,0,,,,,,,,,
+351,2015-07-25 22:35:00,431063,"Pan American Games 2015, Medalla de Oro",Brazil,home,4,,,,,,,,,
+352,2015-07-25 00:35:00,431064,"Juegos Panamericanos 2015 – Mujeres, Medalla de Bronce",Canada,away,1,,,,,,,,,
+353,2015-07-25 00:35:00,431064,"Juegos Panamericanos 2015 – Mujeres, Medalla de Bronce",Mexico,home,2,,,,,,,,,
+354,2015-08-19 23:00:00,433506,Women's International Friendly,Costa Rica,away,2,11,2,0,1,0,7,0.29,3.0,2.0
+355,2015-08-19 23:00:00,433506,Women's International Friendly,United States,home,7,6,0,0,2,8,0,0.71,27.0,13.0
+356,2015-08-16 17:30:00,433507,Women's International Friendly,Costa Rica,away,0,7,0,0,1,2,9,0.35,2.0,2.0
+357,2015-08-16 17:30:00,433507,Women's International Friendly,United States,home,8,7,0,0,0,8,2,0.65,30.0,17.0
+358,2015-11-26 17:00:00,435559,Women's International Friendly,England,away,0,9,1,0,2,0,5,0.47,6.0,3.0
+359,2015-11-26 17:00:00,435559,Women's International Friendly,Germany,home,0,5,0,0,1,3,3,0.53,11.0,5.0
+360,2015-10-25 18:30:00,436254,Women's International Friendly,Brazil,away,1,7,1,0,1,6,2,0.57,14.0,3.0
+361,2015-10-25 18:30:00,436254,Women's International Friendly,United States,home,3,12,2,0,3,2,2,0.43,8.0,5.0
+362,2015-10-22 02:00:00,436255,Women's International Friendly,Brazil,away,1,7,1,0,2,4,3,0.5,13.0,6.0
+363,2015-10-22 02:00:00,436255,Women's International Friendly,United States,home,1,13,0,0,7,9,5,0.5,10.0,4.0
+364,2015-10-23 08:00:00,436585,Women's International Friendly,England,away,1,,,,,,,,,
+365,2015-10-23 08:00:00,436585,Women's International Friendly,China,home,2,,,,,,,,,
+366,2015-10-27 09:00:00,436586,Women's International Friendly,Australia,away,1,15,1,0,0,5,1,0.6,9.0,5.0
+367,2015-10-27 09:00:00,436586,Women's International Friendly,England,home,0,9,0,0,7,2,5,0.4,10.0,2.0
+368,2015-12-17 01:00:00,436753,Women's International Friendly,China,away,1,17,2,0,3,1,8,0.41,4.0,2.0
+369,2015-12-17 01:00:00,436753,Women's International Friendly,United States,home,0,5,0,0,7,9,1,0.59,19.0,8.0
+370,2015-12-14 00:41:00,437840,Women's International Friendly,China,away,0,11,0,0,0,1,3,0.4,5.0,3.0
+371,2015-12-14 00:41:00,437840,Women's International Friendly,United States,home,2,3,0,0,4,8,3,0.6,27.0,5.0
+372,2015-11-29 05:15:00,438022,Women's International Friendly,Australia,away,1,,,,,,,,,
+373,2015-11-29 05:15:00,438022,Women's International Friendly,South Korea,home,0,,,,,,,,,
+374,2015-12-11 02:30:00,438719,Women's International Friendly,Trinidad and Tobago,away,0,11,2,0,0,0,11,0.25,1.0,0.0
+375,2015-12-11 02:30:00,438719,Women's International Friendly,United States,home,6,13,0,0,5,11,0,0.75,30.0,17.0
+376,2015-12-07 01:00:00,438720,Women's International Friendly,Trinidad and Tobago,away,,,,,,,,,,
+377,2015-12-07 01:00:00,438720,Women's International Friendly,United States,home,,,,,,,,,,
+378,2016-03-09 22:00:00,441130,Women's International Friendly,England,away,0,,,,,,,,,
+379,2016-03-09 22:00:00,441130,Women's International Friendly,France,home,0,,,,,,,,,
+380,2016-03-06 22:45:00,441131,Women's International Friendly,Germany,away,2,,,,,,,,,
+381,2016-03-06 22:45:00,441131,Women's International Friendly,England,home,1,,,,,,,,,
+382,2016-03-04 00:45:00,441132,Women's International Friendly,England,away,0,,,,,,,,,
+383,2016-03-04 00:45:00,441132,Women's International Friendly,United States,home,1,,,,,,,,,
+384,2016-01-23 22:30:00,442318,Women's International Friendly,Ireland,away,0,8,0,0,0,2,4,0.34,4.0,2.0
+385,2016-01-23 22:30:00,442318,Women's International Friendly,United States,home,5,9,0,0,0,9,2,0.66,27.0,9.0
+386,2016-03-10 00:45:00,444694,Women's International Friendly,Germany,away,1,,,,,,,,,
+387,2016-03-10 00:45:00,444694,Women's International Friendly,United States,home,2,,,,,,,,,
+388,2016-03-06 20:00:00,444695,Women's International Friendly,France,away,0,,,,,,,,,
+389,2016-03-06 20:00:00,444695,Women's International Friendly,United States,home,1,,,,,,,,,
+390,2016-04-10 14:00:00,446818,Women's International Friendly,Canada,away,2,,,,,,,,,
+391,2016-04-10 14:00:00,446818,Women's International Friendly,Netherlands,home,1,,,,,,,,,
+392,2016-04-07 16:30:00,446819,Women's International Friendly,New Zealand,away,0,,,,,,,,,
+393,2016-04-07 16:30:00,446819,Women's International Friendly,Netherlands,home,2,,,,,,,,,
+394,2016-04-10 18:00:00,446929,Women's International Friendly,Colombia,away,0,8,2,0,0,1,6,0.38,2.0,0.0
+395,2016-04-10 18:00:00,446929,Women's International Friendly,United States,home,3,7,0,0,3,6,0,0.62,23.0,9.0
+396,2016-04-06 23:30:00,446930,Women's International Friendly,Colombia,away,0,18,2,0,0,1,4,0.28,6.0,2.0
+397,2016-04-06 23:30:00,446930,Women's International Friendly,United States,home,7,11,0,0,3,5,2,0.72,26.0,11.0
+398,2016-08-10 01:00:00,447193,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Brazil,away,0,10,2,0,2,13,4,0.7,33.0,11.0
+399,2016-08-10 01:00:00,447193,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",South Africa,home,0,5,1,0,4,2,11,0.3,7.0,4.0
+400,2016-08-10 01:00:00,447194,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Sweden,away,0,15,0,0,3,3,2,0.39,7.0,2.0
+401,2016-08-10 01:00:00,447194,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",China,home,0,6,1,0,1,3,2,0.61,13.0,2.0
+402,2016-08-09 22:00:00,447195,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",France,away,3,15,0,0,5,3,2,0.66,13.0,7.0
+403,2016-08-09 22:00:00,447195,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",New Zealand,home,0,5,2,0,5,4,4,0.34,7.0,2.0
+404,2016-08-09 22:00:00,447196,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",United States,away,2,15,1,0,4,11,0,0.65,16.0,7.0
+405,2016-08-09 22:00:00,447196,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Colombia,home,2,11,2,0,0,0,5,0.35,5.0,2.0
+406,2016-08-09 19:00:00,447197,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Canada,away,2,9,1,0,1,2,3,0.27,5.0,4.0
+407,2016-08-09 19:00:00,447197,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Germany,home,1,4,1,0,1,14,2,0.73,22.0,4.0
+408,2016-08-09 19:00:00,447198,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Zimbabwe,away,1,7,1,0,1,0,7,0.42,9.0,4.0
+409,2016-08-09 19:00:00,447198,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Australia,home,6,5,1,0,0,9,3,0.58,32.0,13.0
+410,2016-08-07 01:00:00,447199,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Sweden,away,1,9,2,0,4,1,2,0.36,6.0,3.0
+411,2016-08-07 01:00:00,447199,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Brazil,home,5,12,0,0,4,6,2,0.64,16.0,7.0
+412,2016-08-06 23:00:00,447200,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",New Zealand,away,1,17,2,1,0,2,5,0.48,10.0,6.0
+413,2016-08-06 23:00:00,447200,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Colombia,home,0,11,1,0,2,1,5,0.52,10.0,5.0
+414,2016-08-06 22:00:00,447201,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",China,away,2,4,0,0,1,9,2,0.63,31.0,11.0
+415,2016-08-06 22:00:00,447201,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",South Africa,home,0,7,1,0,3,4,9,0.37,9.0,2.0
+416,2016-08-06 21:00:00,447202,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Australia,away,2,7,0,0,0,7,7,0.36,15.0,4.0
+417,2016-08-06 21:00:00,447202,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Germany,home,2,9,2,0,2,8,2,0.64,26.0,9.0
+418,2016-08-06 18:00:00,447204,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Zimbabwe,away,1,13,1,0,0,3,4,0.35,6.0,1.0
+419,2016-08-06 18:00:00,447204,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Canada,home,3,11,3,0,3,3,0,0.65,18.0,7.0
+420,2016-08-04 01:00:00,447205,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Colombia,away,0,8,1,0,7,1,6,0.26,4.0,3.0
+421,2016-08-04 01:00:00,447205,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",France,home,4,19,1,0,1,2,3,0.74,13.0,9.0
+422,2016-08-03 21:00:00,447207,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Germany,away,6,2,0,0,1,13,1,0.77,39.0,11.0
+423,2016-08-03 21:00:00,447207,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Zimbabwe,home,1,10,3,0,2,1,6,0.23,2.0,2.0
+424,2016-08-03 19:00:00,447208,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",China,away,0,10,1,0,0,4,6,0.39,4.0,1.0
+425,2016-08-03 19:00:00,447208,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Brazil,home,3,8,0,0,3,15,1,0.61,20.0,9.0
+426,2016-08-03 18:00:00,447209,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Australia,away,0,8,0,0,2,7,4,0.62,16.0,3.0
+427,2016-08-03 18:00:00,447209,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Canada,home,2,13,2,1,2,3,3,0.38,9.0,6.0
+428,2016-08-03 16:00:00,447210,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",South Africa,away,0,6,0,0,10,2,1,0.4,2.0,0.0
+429,2016-08-03 16:00:00,447210,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",Sweden,home,1,8,0,0,1,12,0,0.6,13.0,2.0
+430,2016-06-07 07:00:00,448589,Women's International Friendly,New Zealand,away,1,8,0,0,6,6,4,0.4,12.0,3.0
+431,2016-06-07 07:00:00,448589,Women's International Friendly,Australia,home,1,5,1,0,3,5,2,0.6,23.0,5.0
+432,2016-06-04 05:00:00,448590,Women's International Friendly,New Zealand,away,0,12,1,0,3,1,6,0.47,9.0,0.0
+433,2016-06-04 05:00:00,448590,Women's International Friendly,Australia,home,2,13,0,0,2,7,0,0.53,21.0,8.0
+434,2016-07-09 17:00:00,448854,Women's International Friendly,South Africa,away,0,10,1,0,2,2,5,0.34,4.0,2.0
+435,2016-07-09 17:00:00,448854,Women's International Friendly,United States,home,1,12,1,0,2,10,2,0.66,20.0,6.0
+436,2016-06-05 17:00:00,448855,Women's International Friendly,Japan,away,0,,,,,,,,,
+437,2016-06-05 17:00:00,448855,Women's International Friendly,United States,home,2,,,,,,,,,
+438,2016-06-03 01:00:00,448856,Women's International Friendly,Japan,away,3,14,1,1,2,1,3,0.49,7.0,4.0
+439,2016-06-03 01:00:00,448856,Women's International Friendly,United States,home,3,5,0,0,5,7,1,0.51,19.0,6.0
+440,2016-07-23 01:00:00,451696,Women's International Friendly,Costa Rica,away,0,8,2,0,1,0,4,0.46,1.0,0.0
+441,2016-07-23 01:00:00,451696,Women's International Friendly,United States,home,4,12,1,0,5,9,0,0.54,19.0,8.0
+442,2016-07-23 19:00:00,456045,Women's International Friendly,Australia,away,1,16,1,1,2,1,4,0.44,5.0,2.0
+443,2016-07-23 19:00:00,456045,Women's International Friendly,Brazil,home,3,5,0,0,4,3,1,0.56,17.0,7.0
+444,2016-08-06 20:00:00,462467,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",France,away,0,18,1,0,4,8,1,0.45,14.0,6.0
+445,2016-08-06 20:00:00,462467,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",United States,home,1,9,1,0,4,3,6,0.55,5.0,2.0
+446,2016-08-03 22:00:00,462468,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",New Zealand,away,0,17,3,0,2,4,2,0.36,4.0,0.0
+447,2016-08-03 22:00:00,462468,"2016 Women's Olympic Tournament, 2016 Women's Olympic Group Stage",United States,home,2,10,0,0,4,4,0,0.64,10.0,4.0
+448,2016-08-13 01:00:00,463818,"2016 Women's Olympic Tournament, Quarter Final",Australia,away,0,16,3,0,2,4,7,0.44,9.0,2.0
+449,2016-08-13 01:00:00,463818,"2016 Women's Olympic Tournament, Quarter Final",Brazil,home,0,16,3,0,1,18,2,0.56,26.0,7.0
+450,2016-08-12 22:00:00,463819,"2016 Women's Olympic Tournament, Quarter Final",France,away,0,13,1,0,1,7,0,0.58,6.0,1.0
+451,2016-08-12 22:00:00,463819,"2016 Women's Olympic Tournament, Quarter Final",Canada,home,1,18,3,0,4,4,1,0.42,4.0,1.0
+452,2016-08-12 19:00:00,463820,"2016 Women's Olympic Tournament, Quarter Final",Germany,away,1,6,2,0,7,9,0,0.69,26.0,10.0
+453,2016-08-12 19:00:00,463820,"2016 Women's Olympic Tournament, Quarter Final",China,home,0,9,0,1,0,0,9,0.31,1.0,0.0
+454,2016-08-12 16:00:00,463821,"2016 Women's Olympic Tournament, Quarter Final",Sweden,away,1,15,2,0,5,3,4,0.36,3.0,1.0
+455,2016-08-12 16:00:00,463821,"2016 Women's Olympic Tournament, Quarter Final",United States,home,1,4,1,0,4,12,0,0.64,26.0,5.0
+456,2016-08-16 19:00:00,463957,"2016 Women's Olympic Tournament, Semi Final",Germany,away,2,7,0,0,0,3,4,0.42,9.0,3.0
+457,2016-08-16 19:00:00,463957,"2016 Women's Olympic Tournament, Semi Final",Canada,home,0,10,3,0,2,7,1,0.58,12.0,4.0
+458,2016-08-16 16:00:00,463958,"2016 Women's Olympic Tournament, Semi Final",Sweden,away,0,6,2,0,3,5,9,0.33,6.0,2.0
+459,2016-08-16 16:00:00,463958,"2016 Women's Olympic Tournament, Semi Final",Brazil,home,0,13,3,0,6,10,2,0.67,32.0,9.0
+460,2016-08-19 20:30:00,464103,"2016 Women's Olympic Tournament, Gold Medal Final",Germany,away,2,7,0,0,0,6,2,0.57,23.0,8.0
+461,2016-08-19 20:30:00,464103,"2016 Women's Olympic Tournament, Gold Medal Final",Sweden,home,1,9,3,0,3,9,7,0.43,12.0,3.0
+462,2016-08-19 16:00:00,464104,"2016 Women's Olympic Tournament, Bronze Medal Final",Canada,away,2,16,0,0,2,4,1,0.34,8.0,3.0
+463,2016-08-19 16:00:00,464104,"2016 Women's Olympic Tournament, Bronze Medal Final",Brazil,home,1,10,3,0,3,3,1,0.66,17.0,2.0
+464,2016-10-23 17:45:00,466873,Women's International Friendly,Switzerland,away,1,15,3,0,2,0,3,0.31,5.0,2.0
+465,2016-10-23 17:45:00,466873,Women's International Friendly,United States,home,5,8,1,0,10,9,1,0.69,21.0,8.0
+466,2016-10-20 01:00:00,466874,Women's International Friendly,Switzerland,away,0,16,3,0,2,1,6,0.32,5.0,2.0
+467,2016-10-20 01:00:00,466874,Women's International Friendly,United States,home,4,6,1,0,4,8,2,0.68,22.0,10.0
+468,2016-09-18 23:00:00,466875,Women's International Friendly,Netherlands,away,1,16,2,0,1,2,4,0.44,10.0,5.0
+469,2016-09-18 23:00:00,466875,Women's International Friendly,United States,home,3,5,0,0,5,4,4,0.56,12.0,6.0
+470,2016-09-16 00:00:00,466876,Women's International Friendly,Thailand,away,0,3,0,0,0,0,9,0.38,7.0,3.0
+471,2016-09-16 00:00:00,466876,Women's International Friendly,United States,home,9,5,1,0,5,5,3,0.62,36.0,18.0
+472,2016-11-29 18:00:00,467295,Women's International Friendly,England,away,1,10,0,0,1,3,3,0.49,6.0,4.0
+473,2016-11-29 18:00:00,467295,Women's International Friendly,Netherlands,home,0,9,0,0,1,5,3,0.51,11.0,3.0
+474,2016-10-21 19:00:00,467296,Women's International Friendly,France,away,0,13,2,0,4,6,0,0.63,7.0,2.0
+475,2016-10-21 19:00:00,467296,Women's International Friendly,England,home,0,7,1,0,3,1,2,0.37,3.0,0.0
+476,2016-10-25 16:00:00,467557,Women's International Friendly,England,away,2,8,1,0,4,8,3,0.46,12.0,5.0
+477,2016-10-25 16:00:00,467557,Women's International Friendly,Spain,home,1,10,0,0,0,1,4,0.54,8.0,4.0
+478,2016-11-14 02:30:00,468189,Women's International Friendly,Romania,away,0,13,4,0,0,0,9,0.23,0.0,0.0
+479,2016-11-14 02:30:00,468189,Women's International Friendly,United States,home,5,5,0,0,3,13,0,0.77,36.0,13.0
+480,2016-11-11 03:00:00,468190,Women's International Friendly,Romania,away,1,14,3,0,0,0,10,0.28,4.0,3.0
+481,2016-11-11 03:00:00,468190,Women's International Friendly,United States,home,8,11,0,0,4,11,2,0.72,33.0,17.0
+482,2017-01-24 17:00:00,469133,"2017 Women's International Friendly, Women's International Friendly",Sweden,away,0,12,0,0,6,4,3,0.52,6.0,4.0
+483,2017-01-24 17:00:00,469133,"2017 Women's International Friendly, Women's International Friendly",England,home,0,8,1,0,3,1,4,0.48,12.0,3.0
+484,2017-01-22 17:00:00,469134,"2017 Women's International Friendly, Women's International Friendly",Norway,away,1,,,,,,,,,
+485,2017-01-22 17:00:00,469134,"2017 Women's International Friendly, Women's International Friendly",England,home,0,,,,,,,,,
+486,2017-03-08 00:00:00,471364,"2017 Women's International Friendly, SheBelieves Cup",France,away,3,15,2,0,0,7,4,0.41,12.0,6.0
+487,2017-03-08 00:00:00,471364,"2017 Women's International Friendly, SheBelieves Cup",United States,home,0,9,1,0,5,9,3,0.59,13.0,4.0
+488,2017-03-04 19:15:00,471365,"2017 Women's International Friendly, SheBelieves Cup",Germany,away,0,9,1,0,6,2,3,0.54,13.0,6.0
+489,2017-03-04 19:15:00,471365,"2017 Women's International Friendly, SheBelieves Cup",France,home,0,7,1,0,0,1,6,0.46,13.0,3.0
+490,2017-03-02 00:00:00,471366,"2017 Women's International Friendly, SheBelieves Cup",Germany,away,0,6,2,0,0,4,2,0.44,11.0,4.0
+491,2017-03-02 00:00:00,471366,"2017 Women's International Friendly, SheBelieves Cup",United States,home,1,7,1,0,2,6,4,0.56,15.0,3.0
+492,2017-01-22 17:00:00,473227,"2017 Women's International Friendly, Women's International Friendly",South Africa,away,0,7,1,0,3,0,5,0.31,0.0,0.0
+493,2017-01-22 17:00:00,473227,"2017 Women's International Friendly, Women's International Friendly",France,home,2,10,1,0,1,8,0,0.69,26.0,7.0
+494,2016-11-29 15:00:00,473228,Women's International Friendly,Norway,away,1,8,0,0,1,1,5,0.44,10.0,4.0
+495,2016-11-29 15:00:00,473228,Women's International Friendly,Germany,home,1,6,0,0,3,11,3,0.56,17.0,6.0
+496,2016-11-26 20:00:00,473229,Women's International Friendly,Spain,away,0,7,0,0,2,0,7,0.49,3.0,0.0
+497,2016-11-26 20:00:00,473229,Women's International Friendly,France,home,1,10,0,0,5,9,0,0.51,13.0,8.0
+498,2016-10-25 14:10:00,473234,Women's International Friendly,Netherlands,away,2,10,1,0,1,1,0,0.35,5.0,3.0
+499,2016-10-25 14:10:00,473234,Women's International Friendly,Germany,home,4,9,1,0,3,8,1,0.65,16.0,4.0
+500,2016-09-16 19:00:00,473235,Women's International Friendly,Brazil,away,1,9,0,0,2,5,1,0.43,9.0,4.0
+501,2016-09-16 19:00:00,473235,Women's International Friendly,France,home,1,14,0,0,2,2,3,0.57,10.0,2.0
+502,2016-10-22 12:15:00,473237,Women's International Friendly,Austria,away,2,11,0,0,0,6,4,0.33,9.0,4.0
+503,2016-10-22 12:15:00,473237,Women's International Friendly,Germany,home,4,9,0,0,2,5,2,0.67,18.0,8.0
+504,2017-01-19 17:00:00,473443,"2017 Women's International Friendly, Women's International Friendly",Sweden,away,1,7,1,0,1,4,1,0.48,9.0,4.0
+505,2017-01-19 17:00:00,473443,"2017 Women's International Friendly, Women's International Friendly",Norway,home,2,7,0,0,1,4,3,0.52,9.0,3.0
+506,2017-04-09 18:00:00,474870,"2017 Women's International Friendly, Women's International Friendly",Russia,away,1,14,2,0,1,1,7,0.24,2.0,1.0
+507,2017-04-09 18:00:00,474870,"2017 Women's International Friendly, Women's International Friendly",United States,home,5,4,1,0,8,15,0,0.76,21.0,11.0
+508,2017-04-07 00:30:00,474871,"2017 Women's International Friendly, Women's International Friendly",Russia,away,0,19,3,0,1,2,3,0.29,5.0,1.0
+509,2017-04-07 00:30:00,474871,"2017 Women's International Friendly, Women's International Friendly",United States,home,4,10,1,0,9,16,1,0.71,33.0,7.0
+510,2017-04-09 13:00:00,475498,"2017 Women's International Friendly, Women's International Friendly",Canada,away,1,3,1,0,0,1,5,0.4,5.0,3.0
+511,2017-04-09 13:00:00,475498,"2017 Women's International Friendly, Women's International Friendly",Germany,home,2,12,0,0,0,5,2,0.6,20.0,6.0
+512,2017-04-06 16:00:00,475499,"2017 Women's International Friendly, Women's International Friendly",Canada,away,1,5,0,0,0,3,1,0.51,9.0,3.0
+513,2017-04-06 16:00:00,475499,"2017 Women's International Friendly, Women's International Friendly",Sweden,home,0,8,0,0,1,2,2,0.49,6.0,1.0
+514,2017-04-07 18:00:00,475500,"2017 Women's International Friendly, Women's International Friendly",France,away,2,9,0,0,3,7,0,0.57,13.0,5.0
+515,2017-04-07 18:00:00,475500,"2017 Women's International Friendly, Women's International Friendly",Netherlands,home,1,16,1,0,2,3,4,0.43,3.0,1.0
+516,2017-04-10 18:45:00,475506,"2017 Women's International Friendly, Women's International Friendly",Austria,away,0,8,0,0,0,3,5,0.44,6.0,1.0
+517,2017-04-10 18:45:00,475506,"2017 Women's International Friendly, Women's International Friendly",England,home,3,5,0,0,1,3,1,0.56,15.0,8.0
+518,2017-04-07 18:45:00,475510,"2017 Women's International Friendly, Women's International Friendly",Italy,away,1,6,1,0,1,1,6,0.38,6.0,1.0
+519,2017-04-07 18:45:00,475510,"2017 Women's International Friendly, Women's International Friendly",England,home,1,10,0,0,3,6,0,0.62,23.0,7.0
+520,2017-03-07 21:00:00,475511,"2017 Women's International Friendly, SheBelieves Cup",England,away,0,14,2,0,1,5,1,0.42,13.0,2.0
+521,2017-03-07 21:00:00,475511,"2017 Women's International Friendly, SheBelieves Cup",Germany,home,1,11,4,0,4,4,2,0.58,14.0,2.0
+522,2017-03-04 22:00:00,475512,"2017 Women's International Friendly, SheBelieves Cup",England,away,1,7,0,0,2,2,2,0.4,14.0,3.0
+523,2017-03-04 22:00:00,475512,"2017 Women's International Friendly, SheBelieves Cup",United States,home,0,11,1,0,1,2,2,0.6,14.0,2.0
+524,2017-03-01 21:00:00,475513,"2017 Women's International Friendly, SheBelieves Cup",France,away,2,15,1,0,1,6,3,0.64,13.0,3.0
+525,2017-03-01 21:00:00,475513,"2017 Women's International Friendly, SheBelieves Cup",England,home,1,16,2,0,4,3,1,0.36,9.0,4.0
+526,2017-06-11 17:15:00,476369,"2017 Women's International Friendly, Women's International Friendly",United States,away,1,6,0,0,2,4,1,0.49,11.0,1.0
+527,2017-06-11 17:15:00,476369,"2017 Women's International Friendly, Women's International Friendly",Norway,home,0,9,1,0,1,6,0,0.51,4.0,1.0
+528,2016-01-26 20:00:00,477661,Women's International Friendly,Norway,away,0,0,0,0,0,0,0,0.0,0.0,0.0
+529,2016-01-26 20:00:00,477661,Women's International Friendly,France,home,1,0,0,0,0,0,0,0.0,1.0,1.0
+530,2016-07-23 19:00:00,477662,Women's International Friendly,Canada,away,0,0,1,0,0,0,0,0.0,0.0,0.0
+531,2016-07-23 19:00:00,477662,Women's International Friendly,France,home,1,0,0,0,0,0,0,0.0,1.0,1.0
+532,2016-07-16 19:00:00,477663,Women's International Friendly,China,away,0,0,1,0,0,0,0,0.0,0.0,0.0
+533,2016-07-16 19:00:00,477663,Women's International Friendly,France,home,3,0,0,0,0,0,0,1.0,3.0,3.0
+534,2016-10-24 17:00:00,477859,Women's International Friendly,Sweden,away,0,0,0,0,0,0,0,0.0,0.0,0.0
+535,2016-10-24 17:00:00,477859,Women's International Friendly,Norway,home,0,0,0,0,0,0,0,1.0,0.0,0.0
+536,2016-07-21 14:00:00,477861,Women's International Friendly,Japan,away,0,0,0,0,0,0,0,0.0,0.0,0.0
+537,2016-07-21 14:00:00,477861,Women's International Friendly,Sweden,home,3,0,0,0,0,0,0,1.0,3.0,3.0
+538,2017-06-10 16:15:00,478207,"2017 Women's International Friendly, Women's International Friendly",England,away,4,11,2,0,1,3,1,0.51,13.0,7.0
+539,2017-06-10 16:15:00,478207,"2017 Women's International Friendly, Women's International Friendly",Switzerland,home,0,8,1,0,2,1,3,0.49,4.0,1.0
+540,2017-04-11 17:00:00,478272,"2017 Women's International Friendly, Women's International Friendly",Iceland,away,0,15,1,0,3,7,5,0.43,9.0,1.0
+541,2017-04-11 17:00:00,478272,"2017 Women's International Friendly, Women's International Friendly",Netherlands,home,4,6,0,0,2,8,1,0.57,19.0,8.0
+542,2017-07-04 15:45:00,478327,"2017 Women's International Friendly, Women's International Friendly",Brazil,away,1,2,0,0,0,2,4,0.32,5.0,1.0
+543,2017-07-04 15:45:00,478327,"2017 Women's International Friendly, Women's International Friendly",Germany,home,3,13,0,0,1,14,0,0.68,24.0,7.0
+544,2017-06-08 17:30:00,478328,"2017 Women's International Friendly, Women's International Friendly",United States,away,1,4,0,0,4,2,4,0.5,7.0,4.0
+545,2017-06-08 17:30:00,478328,"2017 Women's International Friendly, Women's International Friendly",Sweden,home,0,14,0,0,2,10,3,0.5,14.0,4.0
+546,2017-06-13 16:00:00,478669,"2017 Women's International Friendly, Women's International Friendly",Scotland,away,0,2,0,0,2,1,5,0.24,3.0,1.0
+547,2017-06-13 16:00:00,478669,"2017 Women's International Friendly, Women's International Friendly",Sweden,home,1,7,0,0,1,15,1,0.76,26.0,6.0
+548,2016-07-22 16:00:00,478670,Women's International Friendly,Ghana,away,0,0,0,0,0,0,0,0.0,0.0,0.0
+549,2016-07-22 16:00:00,478670,Women's International Friendly,Germany,home,11,0,0,0,0,0,0,1.0,10.0,10.0
+550,2016-01-26 17:00:00,478671,Women's International Friendly,Scotland,away,0,,,,,,,,,
+551,2016-01-26 17:00:00,478671,Women's International Friendly,Sweden,home,0,,,,,,,,,
+552,2017-07-11 19:00:00,479152,"2017 Women's International Friendly, Women's International Friendly",Norway,away,1,10,1,0,3,4,2,0.48,7.0,5.0
+553,2017-07-11 19:00:00,479152,"2017 Women's International Friendly, Women's International Friendly",France,home,1,9,0,0,1,7,4,0.52,17.0,3.0
+554,2017-07-07 19:00:00,479157,"2017 Women's International Friendly, Women's International Friendly",Belgium,away,0,8,0,0,1,3,5,0.36,7.0,1.0
+555,2017-07-07 19:00:00,479157,"2017 Women's International Friendly, Women's International Friendly",France,home,2,4,0,0,2,8,1,0.64,21.0,6.0
+556,2017-07-01 17:00:00,479158,"2017 Women's International Friendly, Women's International Friendly",England,away,2,12,5,0,6,4,2,0.33,6.0,2.0
+557,2017-07-01 17:00:00,479158,"2017 Women's International Friendly, Women's International Friendly",Denmark,home,1,11,0,0,6,7,0,0.67,14.0,3.0
+558,2017-04-09 10:00:00,479230,"2017 Women's International Friendly, Women's International Friendly",Costa Rica,away,0,0,1,0,0,0,0,0.0,0.0,0.0
+559,2017-04-09 10:00:00,479230,"2017 Women's International Friendly, Women's International Friendly",Japan,home,3,0,2,0,0,0,0,1.0,3.0,3.0
+560,2017-06-13 18:00:00,479231,"2017 Women's International Friendly, Women's International Friendly",Japan,away,1,0,1,0,0,0,0,0.5,1.0,1.0
+561,2017-06-13 18:00:00,479231,"2017 Women's International Friendly, Women's International Friendly",Belgium,home,1,0,1,0,0,0,0,0.5,1.0,1.0
+562,2017-06-09 16:30:00,479232,"2017 Women's International Friendly, Women's International Friendly",Japan,away,1,6,1,0,6,2,3,0.52,11.0,1.0
+563,2017-06-09 16:30:00,479232,"2017 Women's International Friendly, Women's International Friendly",Netherlands,home,0,13,0,0,1,6,0,0.48,14.0,3.0
+564,2017-06-13 18:30:00,479341,"2017 Women's International Friendly, Women's International Friendly",Brazil,away,1,5,0,0,4,5,3,0.62,16.0,4.0
+565,2017-06-13 18:30:00,479341,"2017 Women's International Friendly, Women's International Friendly",Iceland,home,0,21,0,1,7,1,3,0.38,7.0,3.0
+566,2017-06-10 16:30:00,479342,"2017 Women's International Friendly, Women's International Friendly",Brazil,away,2,11,1,0,3,1,3,0.47,12.0,6.0
+567,2017-06-10 16:30:00,479342,"2017 Women's International Friendly, Women's International Friendly",Spain,home,1,15,0,0,9,3,4,0.53,9.0,4.0
+568,2017-06-13 18:45:00,479382,"2017 Women's International Friendly, Women's International Friendly",Austria,away,0,13,0,0,4,5,4,0.33,9.0,2.0
+569,2017-06-13 18:45:00,479382,"2017 Women's International Friendly, Women's International Friendly",Netherlands,home,3,13,0,0,4,4,2,0.67,10.0,6.0
+570,2017-07-08 16:15:00,486952,"2017 Women's International Friendly, Women's International Friendly",Mexico,away,0,3,0,0,2,4,1,0.41,10.0,4.0
+571,2017-07-08 16:15:00,486952,"2017 Women's International Friendly, Women's International Friendly",Sweden,home,1,7,0,0,4,15,4,0.59,14.0,2.0
+572,2017-11-13 02:00:00,487829,"2017 Women's International Friendly, Women's International Friendly",Canada,away,1,12,1,0,0,2,3,0.43,8.0,2.0
+573,2017-11-13 02:00:00,487829,"2017 Women's International Friendly, Women's International Friendly",United States,home,3,12,0,0,1,10,1,0.57,12.0,6.0
+574,2017-11-10 03:00:00,487830,"2017 Women's International Friendly, Women's International Friendly",United States,away,1,13,0,0,2,4,7,0.54,11.0,4.0
+575,2017-11-10 03:00:00,487830,"2017 Women's International Friendly, Women's International Friendly",Canada,home,1,14,2,0,1,5,3,0.46,19.0,8.0
+576,2017-09-19 09:30:00,487831,"2017 Women's International Friendly, Women's International Friendly",Brazil,away,2,7,3,0,3,4,1,0.46,9.0,4.0
+577,2017-09-19 09:30:00,487831,"2017 Women's International Friendly, Women's International Friendly",Australia,home,3,14,2,0,4,5,2,0.54,12.0,4.0
+578,2017-09-16 05:00:00,487832,"2017 Women's International Friendly, Women's International Friendly",Brazil,away,1,12,3,0,4,2,1,0.47,6.0,4.0
+579,2017-09-16 05:00:00,487832,"2017 Women's International Friendly, Women's International Friendly",Australia,home,2,15,2,0,2,7,3,0.53,23.0,3.0
+580,2017-04-09 23:30:00,489319,"2017 Women's International Friendly, Women's International Friendly",Bolivia,away,0,,,,,,,,,
+581,2017-04-09 23:30:00,489319,"2017 Women's International Friendly, Women's International Friendly",Brazil,home,6,,,,,,,,,
+582,2017-07-08 14:00:00,489322,"2017 Women's International Friendly, Women's International Friendly",Wales,away,0,10,0,0,0,0,7,0.24,2.0,1.0
+583,2017-07-08 14:00:00,489322,"2017 Women's International Friendly, Women's International Friendly",Netherlands,home,5,6,0,0,4,9,1,0.76,29.0,12.0
+584,2017-01-24 14:00:00,489323,"2017 Women's International Friendly, Women's International Friendly",Netherlands,away,4,13,0,0,2,18,1,0.71,25.0,9.0
+585,2017-01-24 14:00:00,489323,"2017 Women's International Friendly, Women's International Friendly",Russia,home,0,12,0,0,6,0,5,0.29,1.0,1.0
+586,2017-01-20 14:00:00,489324,"2017 Women's International Friendly, Women's International Friendly",Netherlands,away,1,13,0,0,6,12,0,0.7,30.0,16.0
+587,2017-01-20 14:00:00,489324,"2017 Women's International Friendly, Women's International Friendly",Romania,home,7,13,1,0,1,1,10,0.3,3.0,1.0
+588,2017-09-19 23:30:00,489966,"2017 Women's International Friendly, Women's International Friendly",New Zealand,away,0,10,1,0,2,4,4,0.3,5.0,0.0
+589,2017-09-19 23:30:00,489966,"2017 Women's International Friendly, Women's International Friendly",United States,home,5,2,0,0,1,9,0,0.7,19.0,9.0
+590,2017-09-16 02:00:00,489967,"2017 Women's International Friendly, Women's International Friendly",New Zealand,away,1,11,1,0,1,3,1,0.36,5.0,3.0
+591,2017-09-16 02:00:00,489967,"2017 Women's International Friendly, Women's International Friendly",United States,home,3,8,0,0,0,7,2,0.64,14.0,4.0
+592,2017-07-27 18:45:00,490142,"Women's European Championship, Group Stage",England,away,2,15,2,0,3,4,1,0.51,8.0,2.0
+593,2017-07-27 18:45:00,490142,"Women's European Championship, Group Stage",Portugal,home,1,11,0,0,1,1,0,0.49,3.0,2.0
+594,2017-07-27 18:45:00,490143,"Women's European Championship, Group Stage",Spain,away,0,9,1,0,4,11,1,0.74,29.0,9.0
+595,2017-07-27 18:45:00,490143,"Women's European Championship, Group Stage",Scotland,home,1,11,2,0,4,1,9,0.26,8.0,2.0
+596,2017-07-26 18:45:00,490145,"Women's European Championship, Group Stage",France,away,1,15,2,1,2,10,2,0.67,8.0,4.0
+597,2017-07-26 18:45:00,490145,"Women's European Championship, Group Stage",Switzerland,home,1,13,3,0,3,5,3,0.33,5.0,3.0
+598,2017-07-25 18:45:00,490146,"Women's European Championship, Group Stage",Germany,away,2,10,0,0,7,4,1,0.77,32.0,11.0
+599,2017-07-25 18:45:00,490146,"Women's European Championship, Group Stage",Russia,home,0,19,1,0,3,3,9,0.23,4.0,1.0
+600,2017-07-25 18:45:00,490147,"Women's European Championship, Group Stage",Italy,away,3,9,2,0,4,3,2,0.53,11.0,6.0
+601,2017-07-25 18:45:00,490147,"Women's European Championship, Group Stage",Sweden,home,2,11,0,0,2,11,3,0.47,12.0,4.0
+602,2017-07-24 18:45:00,490148,"Women's European Championship, Group Stage",Denmark,away,1,10,0,0,10,5,6,0.43,9.0,4.0
+603,2017-07-24 18:45:00,490148,"Women's European Championship, Group Stage",Norway,home,0,9,1,0,2,4,3,0.57,16.0,6.0
+604,2017-07-24 18:45:00,490149,"Women's European Championship, Group Stage",Netherlands,away,2,14,4,0,1,3,2,0.54,9.0,5.0
+605,2017-07-24 18:45:00,490149,"Women's European Championship, Group Stage",Belgium,home,1,17,1,0,6,3,3,0.46,8.0,3.0
+606,2017-07-23 18:45:00,490150,"Women's European Championship, Group Stage",Spain,away,0,9,2,0,1,4,0,0.78,6.0,1.0
+607,2017-07-23 18:45:00,490150,"Women's European Championship, Group Stage",England,home,2,11,0,0,4,1,1,0.22,4.0,2.0
+608,2017-07-23 16:00:00,490151,"Women's European Championship, Group Stage",Portugal,away,2,12,5,0,1,5,1,0.54,14.0,4.0
+609,2017-07-23 16:00:00,490151,"Women's European Championship, Group Stage",Scotland,home,1,12,1,0,2,2,2,0.46,14.0,2.0
+610,2017-07-22 18:45:00,490152,"Women's European Championship, Group Stage",Austria,away,1,14,1,0,1,1,6,0.25,7.0,3.0
+611,2017-07-22 18:45:00,490152,"Women's European Championship, Group Stage",France,home,1,10,1,0,1,5,2,0.75,19.0,7.0
+612,2017-07-21 18:45:00,490154,"Women's European Championship, Group Stage",Italy,away,1,18,2,1,2,6,7,0.22,6.0,4.0
+613,2017-07-21 18:45:00,490154,"Women's European Championship, Group Stage",Germany,home,2,6,3,0,1,7,3,0.78,24.0,9.0
+614,2017-07-21 16:00:00,490155,"Women's European Championship, Group Stage",Russia,away,0,9,2,0,2,2,3,0.3,8.0,3.0
+615,2017-07-21 16:00:00,490155,"Women's European Championship, Group Stage",Sweden,home,2,11,1,0,1,7,3,0.7,23.0,5.0
+616,2017-07-20 18:45:00,490156,"Women's European Championship, Group Stage",Denmark,away,0,11,3,0,1,4,4,0.53,10.0,5.0
+617,2017-07-20 18:45:00,490156,"Women's European Championship, Group Stage",Netherlands,home,1,11,0,0,0,8,5,0.47,20.0,5.0
+618,2017-07-20 16:00:00,490157,"Women's European Championship, Group Stage",Belgium,away,2,19,2,0,2,4,2,0.47,9.0,4.0
+619,2017-07-20 16:00:00,490157,"Women's European Championship, Group Stage",Norway,home,0,17,1,0,2,11,2,0.53,11.0,2.0
+620,2017-07-19 18:45:00,490158,"Women's European Championship, Group Stage",Scotland,away,0,6,1,0,0,7,4,0.43,8.0,3.0
+621,2017-07-19 18:45:00,490158,"Women's European Championship, Group Stage",England,home,6,14,2,0,2,4,3,0.57,23.0,10.0
+622,2017-07-19 16:00:00,490159,"Women's European Championship, Group Stage",Portugal,away,0,8,0,0,1,0,8,0.21,1.0,0.0
+623,2017-07-19 16:00:00,490159,"Women's European Championship, Group Stage",Spain,home,2,7,0,0,3,7,0,0.79,19.0,10.0
+624,2017-07-18 18:45:00,490160,"Women's European Championship, Group Stage",Iceland,away,0,15,2,0,2,2,3,0.32,4.0,0.0
+625,2017-07-18 18:45:00,490160,"Women's European Championship, Group Stage",France,home,1,10,1,0,1,8,0,0.68,19.0,4.0
+626,2017-07-17 18:45:00,490162,"Women's European Championship, Group Stage",Sweden,away,0,4,0,0,0,6,5,0.4,9.0,2.0
+627,2017-07-17 18:45:00,490162,"Women's European Championship, Group Stage",Germany,home,0,4,1,0,8,8,2,0.6,17.0,5.0
+628,2017-07-17 16:00:00,490163,"Women's European Championship, Group Stage",Russia,away,2,21,1,0,3,4,4,0.37,8.0,3.0
+629,2017-07-17 16:00:00,490163,"Women's European Championship, Group Stage",Italy,home,1,13,2,0,3,6,1,0.63,13.0,5.0
+630,2017-07-16 16:00:00,490165,"Women's European Championship, Group Stage",Norway,away,0,8,1,0,3,5,7,0.42,6.0,2.0
+631,2017-07-16 16:00:00,490165,"Women's European Championship, Group Stage",Netherlands,home,1,9,1,0,3,7,2,0.58,18.0,8.0
+632,2017-08-06 15:00:00,490166,"Women's European Championship, Final",Denmark,away,2,10,1,0,2,4,2,0.51,11.0,3.0
+633,2017-08-06 15:00:00,490166,"Women's European Championship, Final",Netherlands,home,4,16,3,0,0,0,1,0.49,9.0,6.0
+634,2017-08-03 18:45:00,490168,"Women's European Championship, Semifinal",England,away,0,12,2,0,5,8,2,0.46,17.0,7.0
+635,2017-08-03 18:45:00,490168,"Women's European Championship, Semifinal",Netherlands,home,3,16,2,0,1,1,7,0.54,10.0,4.0
+636,2017-07-30 18:45:00,490169,"Women's European Championship, Quarterfinal",France,away,0,9,1,0,0,2,1,0.57,15.0,3.0
+637,2017-07-30 18:45:00,490169,"Women's European Championship, Quarterfinal",England,home,1,15,2,0,5,4,3,0.43,6.0,2.0
+638,2017-07-30 16:00:00,490170,"Women's European Championship, Quarterfinal",Spain,away,0,9,2,0,6,6,1,0.71,21.0,5.0
+639,2017-07-30 16:00:00,490170,"Women's European Championship, Quarterfinal",Austria,home,0,12,2,0,8,5,5,0.29,4.0,1.0
+640,2017-07-30 10:00:00,490171,"Women's European Championship, Quarterfinal",Denmark,away,2,7,0,0,2,5,8,0.39,14.0,4.0
+641,2017-07-30 10:00:00,490171,"Women's European Championship, Quarterfinal",Germany,home,1,5,0,0,2,5,2,0.61,18.0,9.0
+642,2017-07-29 16:00:00,490172,"Women's European Championship, Quarterfinal",Sweden,away,0,13,2,0,4,2,0,0.48,9.0,2.0
+643,2017-07-29 16:00:00,490172,"Women's European Championship, Quarterfinal",Netherlands,home,2,10,0,0,0,4,2,0.52,9.0,2.0
+644,2017-10-22 07:30:00,490328,"2017 Women's International Friendly, Women's International Friendly",Switzerland,away,0,0,0,0,0,0,0,0.0,0.0,0.0
+645,2017-10-22 07:30:00,490328,"2017 Women's International Friendly, Women's International Friendly",Japan,home,2,0,3,0,0,0,0,0.0,2.0,2.0
+646,2017-08-04 02:00:00,491291,"2017 Women's International Friendly, Tournament of Nations",Japan,away,0,6,0,0,1,2,4,0.51,11.0,5.0
+647,2017-08-04 02:00:00,491291,"2017 Women's International Friendly, Tournament of Nations",United States,home,3,4,0,0,5,7,5,0.49,19.0,7.0
+648,2017-08-03 23:15:00,491292,"2017 Women's International Friendly, Tournament of Nations",Brazil,away,1,12,4,0,1,3,6,0.48,13.0,6.0
+649,2017-08-03 23:15:00,491292,"2017 Women's International Friendly, Tournament of Nations",Australia,home,6,8,3,0,4,7,5,0.52,24.0,12.0
+650,2017-07-31 00:00:00,491293,"2017 Women's International Friendly, Tournament of Nations",Brazil,away,3,20,4,0,1,4,7,0.43,13.0,5.0
+651,2017-07-31 00:00:00,491293,"2017 Women's International Friendly, Tournament of Nations",United States,home,4,12,2,0,4,7,2,0.57,24.0,11.0
+652,2017-07-30 21:15:00,491294,"2017 Women's International Friendly, Tournament of Nations",Australia,away,4,13,1,0,1,5,4,0.43,22.0,9.0
+653,2017-07-30 21:15:00,491294,"2017 Women's International Friendly, Tournament of Nations",Japan,home,2,11,0,0,0,4,5,0.57,13.0,6.0
+654,2017-07-28 02:00:00,491295,"2017 Women's International Friendly, Tournament of Nations",Australia,away,1,14,2,0,2,5,3,0.53,11.0,4.0
+655,2017-07-28 02:00:00,491295,"2017 Women's International Friendly, Tournament of Nations",United States,home,0,11,0,0,4,6,3,0.47,12.0,3.0
+656,2017-07-27 23:15:00,491296,"2017 Women's International Friendly, Tournament of Nations",Japan,away,1,7,1,0,2,4,8,0.51,19.0,7.0
+657,2017-07-27 23:15:00,491296,"2017 Women's International Friendly, Tournament of Nations",Brazil,home,1,9,1,0,1,3,6,0.49,19.0,9.0
+658,2016-12-18 20:00:00,491822,Women's International Friendly,Italy,away,3,13,1,0,3,2,6,0.33,5.0,4.0
+659,2016-12-18 20:00:00,491822,Women's International Friendly,Brazil,home,5,9,0,0,1,6,1,0.67,20.0,11.0
+660,2016-12-14 20:00:00,491823,Women's International Friendly,Italy,away,1,21,3,0,6,2,5,0.3,8.0,3.0
+661,2016-12-14 20:00:00,491823,Women's International Friendly,Brazil,home,3,11,2,0,1,3,2,0.7,18.0,7.0
+662,2016-12-11 20:00:00,491824,Women's International Friendly,Russia,away,0,14,3,0,2,2,5,0.29,3.0,2.0
+663,2016-12-11 20:00:00,491824,Women's International Friendly,Brazil,home,4,14,1,0,3,12,2,0.71,28.0,9.0
+664,2016-12-07 20:00:00,491825,Women's International Friendly,Costa Rica,away,0,6,1,0,2,0,5,0.41,2.0,0.0
+665,2016-12-07 20:00:00,491825,Women's International Friendly,Brazil,home,6,14,0,0,2,8,0,0.59,20.0,11.0
+666,2016-06-07 19:00:00,491826,Women's International Friendly,Brazil,away,0,15,1,0,2,0,5,0.48,10.0,3.0
+667,2016-06-07 19:00:00,491826,Women's International Friendly,Canada,home,1,14,1,0,3,4,3,0.52,14.0,6.0
+668,2016-06-04 19:00:00,491827,Women's International Friendly,Brazil,away,2,8,0,0,3,6,2,0.53,7.0,3.0
+669,2016-06-04 19:00:00,491827,Women's International Friendly,Canada,home,0,8,1,0,2,4,1,0.47,9.0,2.0
+670,2017-09-18 19:00:00,492036,"2017 Women's International Friendly, Women's International Friendly",Spain,away,1,12,0,0,4,2,2,0.67,10.0,6.0
+671,2017-09-18 19:00:00,492036,"2017 Women's International Friendly, Women's International Friendly",France,home,3,8,1,0,5,5,5,0.33,14.0,5.0
+672,2017-09-15 19:00:00,492037,"2017 Women's International Friendly, Women's International Friendly",Chile,away,0,7,0,0,3,1,14,0.36,3.0,2.0
+673,2017-09-15 19:00:00,492037,"2017 Women's International Friendly, Women's International Friendly",France,home,1,11,0,0,2,10,2,0.64,32.0,14.0
+674,2017-10-22 18:00:00,494027,"2017 Women's International Friendly, Women's International Friendly",South Korea,away,0,16,0,0,1,2,3,0.43,7.0,2.0
+675,2017-10-22 18:00:00,494027,"2017 Women's International Friendly, Women's International Friendly",United States,home,6,17,1,0,5,10,2,0.57,22.0,9.0
+676,2017-10-20 00:00:00,494028,"2017 Women's International Friendly, Women's International Friendly",South Korea,away,1,14,2,0,3,0,8,0.4,5.0,1.0
+677,2017-10-20 00:00:00,494028,"2017 Women's International Friendly, Women's International Friendly",United States,home,3,6,0,0,1,5,0,0.6,21.0,11.0
+678,2017-09-15 16:00:00,496574,"2017 Women's International Friendly, Women's International Friendly",Netherlands,away,0,,,,,,,,,
+679,2017-09-15 16:00:00,496574,"2017 Women's International Friendly, Women's International Friendly",Denmark,home,0,,,,,,,,,
+680,2017-11-26 05:30:00,496936,"2017 Women's International Friendly, Women's International Friendly",China,away,1,7,0,0,5,6,1,0.39,16.0,8.0
+681,2017-11-26 05:30:00,496936,"2017 Women's International Friendly, Women's International Friendly",Australia,home,5,12,0,0,4,3,7,0.61,7.0,5.0
+682,2017-11-22 08:30:00,496937,"2017 Women's International Friendly, Women's International Friendly",China,away,0,10,0,0,2,4,5,0.37,3.0,1.0
+683,2017-11-22 08:30:00,496937,"2017 Women's International Friendly, Women's International Friendly",Australia,home,3,2,0,0,5,8,1,0.63,19.0,8.0
+684,2017-10-20 19:00:00,496965,"2017 Women's International Friendly, Women's International Friendly",England,away,0,9,1,0,3,4,3,0.58,7.0,1.0
+685,2017-10-20 19:00:00,496965,"2017 Women's International Friendly, Women's International Friendly",France,home,1,9,0,0,0,4,1,0.42,9.0,4.0
+686,2017-11-27 20:00:00,497285,"2017 Women's International Friendly, Women's International Friendly",Sweden,away,0,13,1,0,3,7,1,0.45,4.0,2.0
+687,2017-11-27 20:00:00,497285,"2017 Women's International Friendly, Women's International Friendly",France,home,0,6,0,0,5,4,2,0.55,5.0,1.0
+688,2017-11-24 16:55:00,497286,"2017 Women's International Friendly, Women's International Friendly",France,away,0,7,1,0,1,3,3,0.48,7.0,2.0
+689,2017-11-24 16:55:00,497286,"2017 Women's International Friendly, Women's International Friendly",Germany,home,4,9,0,0,4,8,2,0.52,14.0,7.0
+690,2017-10-23 19:00:00,497287,"2017 Women's International Friendly, Women's International Friendly",Ghana,away,0,8,0,0,3,0,5,0.41,2.0,0.0
+691,2017-10-23 19:00:00,497287,"2017 Women's International Friendly, Women's International Friendly",France,home,8,11,0,0,2,5,0,0.59,26.0,13.0
+692,2017-10-19 18:30:00,497514,"2017 Women's International Friendly, Women's International Friendly",Netherlands,away,2,13,0,0,3,2,1,0.61,7.0,4.0
+693,2017-10-19 18:30:00,497514,"2017 Women's International Friendly, Women's International Friendly",Austria,home,0,7,0,0,4,6,2,0.39,9.0,1.0
+694,2017-04-10 15:00:00,497567,"2017 Women's International Friendly, Women's International Friendly",Switzerland,away,1,10,1,0,3,6,3,0.52,14.0,5.0
+695,2017-04-10 15:00:00,497567,"2017 Women's International Friendly, Women's International Friendly",Norway,home,2,10,1,0,4,1,4,0.48,9.0,5.0
+696,2017-10-24 11:35:00,497887,"2017 Women's International Friendly, Yongchuan Tournament",Brazil,away,2,0,1,0,0,0,0,0.0,2.0,2.0
+697,2017-10-24 11:35:00,497887,"2017 Women's International Friendly, Yongchuan Tournament",China,home,2,0,0,0,0,0,0,1.0,2.0,2.0
+698,2017-10-21 11:35:00,497889,"2017 Women's International Friendly, Yongchuan Tournament",Mexico,away,2,,,,,,,,,
+699,2017-10-21 11:35:00,497889,"2017 Women's International Friendly, Yongchuan Tournament",China,home,3,,,,,,,,,
+700,2017-10-21 08:00:00,497890,"2017 Women's International Friendly, Yongchuan Tournament",North Korea,away,0,,,,,,,,,
+701,2017-10-21 08:00:00,497890,"2017 Women's International Friendly, Yongchuan Tournament",Brazil,home,2,,,,,,,,,
+702,2017-10-19 11:35:00,497891,"2017 Women's International Friendly, Yongchuan Tournament",North Korea,away,2,,,,,,,,,
+703,2017-10-19 11:35:00,497891,"2017 Women's International Friendly, Yongchuan Tournament",China,home,1,,,,,,,,,
+704,2017-10-19 08:00:00,497892,"2017 Women's International Friendly, Yongchuan Tournament",Mexico,away,0,,,,,,,,,
+705,2017-10-19 08:00:00,497892,"2017 Women's International Friendly, Yongchuan Tournament",Brazil,home,3,,,,,,,,,
+706,2017-06-11 08:00:00,498136,"2017 Women's International Friendly, Women's International Friendly",Finland,away,2,8,0,0,2,0,7,0.46,7.0,5.0
+707,2017-06-11 08:00:00,498136,"2017 Women's International Friendly, Women's International Friendly",China,home,4,10,0,0,3,12,3,0.54,20.0,11.0
+708,2017-06-08 11:35:00,498137,"2017 Women's International Friendly, Women's International Friendly",North Korea,away,1,11,1,0,2,7,2,0.45,15.0,7.0
+709,2017-06-08 11:35:00,498137,"2017 Women's International Friendly, Women's International Friendly",China,home,0,9,1,0,0,2,6,0.55,8.0,2.0
+710,2017-04-09 08:00:00,498216,"2017 Women's International Friendly, Women's International Friendly",Croatia,away,1,6,2,0,0,2,2,0.39,11.0,4.0
+711,2017-04-09 08:00:00,498216,"2017 Women's International Friendly, Women's International Friendly",China,home,2,17,0,0,1,9,3,0.61,12.0,3.0
+712,2017-04-06 08:00:00,498217,"2017 Women's International Friendly, Women's International Friendly",Croatia,away,0,9,0,0,1,0,1,0.4,4.0,1.0
+713,2017-04-06 08:00:00,498217,"2017 Women's International Friendly, Women's International Friendly",China,home,2,8,0,0,3,5,1,0.6,11.0,3.0
+714,2017-11-28 18:00:00,498606,"2017 Women's International Friendly, Women's International Friendly",Norway,away,2,7,0,0,0,5,3,0.5,7.0,3.0
+715,2017-11-28 18:00:00,498606,"2017 Women's International Friendly, Women's International Friendly",Canada,home,3,12,0,0,3,6,1,0.5,12.0,6.0
+716,2017-11-24 14:00:00,498639,"2017 Women's International Friendly, Women's International Friendly",Japan,away,2,18,1,0,5,7,1,0.75,24.0,8.0
+717,2017-11-24 14:00:00,498639,"2017 Women's International Friendly, Women's International Friendly",Jordan,home,0,7,0,0,0,3,6,0.25,3.0,1.0
+718,2017-11-28 23:00:00,498695,"2017 Women's International Friendly, Women's International Friendly",Brazil,away,3,0,2,0,0,0,0,1.0,4.0,3.0
+719,2017-11-28 23:00:00,498695,"2017 Women's International Friendly, Women's International Friendly",Chile,home,0,1,3,0,0,0,0,0.0,0.0,0.0
+720,2017-11-25 23:00:00,498696,"2017 Women's International Friendly, Women's International Friendly",Brazil,away,4,0,0,0,0,0,0,1.0,4.0,4.0
+721,2017-11-25 23:00:00,498696,"2017 Women's International Friendly, Women's International Friendly",Chile,home,0,0,1,0,0,0,0,0.0,0.0,0.0
+722,2018-01-22 00:30:00,499201,"2018 Women's International Friendly, Women's International Friendly",Denmark,away,1,12,1,0,1,3,4,0.47,6.0,1.0
+723,2018-01-22 00:30:00,499201,"2018 Women's International Friendly, Women's International Friendly",United States,home,5,8,1,0,2,9,0,0.53,19.0,9.0
+724,2018-03-08 00:00:00,501084,"2018 Women's International Friendly, SheBelieves Cup",England,away,0,13,0,0,7,4,2,0.39,6.0,0.0
+725,2018-03-08 00:00:00,501084,"2018 Women's International Friendly, SheBelieves Cup",United States,home,1,8,0,0,0,5,0,0.61,8.0,2.0
+726,2018-03-07 21:00:00,501085,"2018 Women's International Friendly, SheBelieves Cup",Germany,away,0,11,1,0,5,3,3,0.54,7.0,3.0
+727,2018-03-07 21:00:00,501085,"2018 Women's International Friendly, SheBelieves Cup",France,home,3,12,0,0,0,2,3,0.46,9.0,6.0
+728,2018-03-04 20:00:00,501086,"2018 Women's International Friendly, SheBelieves Cup",England,away,2,6,1,0,1,1,4,0.47,11.0,5.0
+729,2018-03-04 20:00:00,501086,"2018 Women's International Friendly, SheBelieves Cup",Germany,home,2,9,0,0,4,6,3,0.53,20.0,5.0
+730,2018-03-04 17:00:00,501087,"2018 Women's International Friendly, SheBelieves Cup",France,away,1,13,3,0,4,4,1,0.42,14.0,4.0
+731,2018-03-04 17:00:00,501087,"2018 Women's International Friendly, SheBelieves Cup",United States,home,1,9,0,0,4,7,3,0.58,11.0,2.0
+732,2018-03-02 00:00:00,501088,"2018 Women's International Friendly, SheBelieves Cup",Germany,away,0,13,2,0,2,4,3,0.57,7.0,2.0
+733,2018-03-02 00:00:00,501088,"2018 Women's International Friendly, SheBelieves Cup",United States,home,1,6,0,0,0,6,2,0.43,14.0,4.0
+734,2018-03-01 21:00:00,501089,"2018 Women's International Friendly, SheBelieves Cup",France,away,1,5,0,0,2,3,2,0.51,12.0,1.0
+735,2018-03-01 21:00:00,501089,"2018 Women's International Friendly, SheBelieves Cup",England,home,4,10,1,0,4,4,0,0.49,10.0,6.0
+736,2018-01-23 17:00:00,504145,"2018 Women's International Friendly, Women's International Friendly",Iceland,away,1,0,0,0,0,0,0,0.5,1.0,1.0
+737,2018-01-23 17:00:00,504145,"2018 Women's International Friendly, Women's International Friendly",Norway,home,2,0,0,0,0,0,0,0.5,2.0,2.0
+738,2018-01-21 12:00:00,504146,"2018 Women's International Friendly, Women's International Friendly",Sweden,away,3,15,1,0,2,7,0,0.56,17.0,4.0
+739,2018-01-21 12:00:00,504146,"2018 Women's International Friendly, Women's International Friendly",South Africa,home,0,4,0,0,6,2,2,0.44,7.0,0.0
+740,2018-01-20 20:00:00,504147,"2018 Women's International Friendly, Women's International Friendly",Italy,away,1,15,3,0,3,3,4,0.36,3.0,1.0
+741,2018-01-20 20:00:00,504147,"2018 Women's International Friendly, Women's International Friendly",France,home,1,13,0,0,6,5,0,0.64,14.0,5.0
+742,2018-01-20 18:00:00,504148,"2018 Women's International Friendly, Women's International Friendly",Netherlands,away,0,19,1,0,3,2,3,0.4,10.0,3.0
+743,2018-01-20 18:00:00,504148,"2018 Women's International Friendly, Women's International Friendly",Spain,home,2,13,0,0,5,6,3,0.6,9.0,4.0
+744,2018-01-19 17:00:00,504149,"2018 Women's International Friendly, Women's International Friendly",Scotland,away,0,0,0,0,0,0,0,0.0,0.0,0.0
+745,2018-01-19 17:00:00,504149,"2018 Women's International Friendly, Women's International Friendly",Norway,home,3,0,0,0,0,0,0,1.0,3.0,3.0
+746,2018-04-08 17:30:00,509717,"2018 Women's International Friendly, Women's International Friendly",Mexico,away,2,10,0,0,2,6,8,0.33,6.0,2.0
+747,2018-04-08 17:30:00,509717,"2018 Women's International Friendly, Women's International Friendly",United States,home,6,4,0,0,1,9,0,0.67,18.0,14.0
+748,2018-04-05 23:00:00,509718,"2018 Women's International Friendly, Women's International Friendly",Mexico,away,1,10,0,0,0,4,2,0.25,9.0,1.0
+749,2018-04-05 23:00:00,509718,"2018 Women's International Friendly, Women's International Friendly",United States,home,4,7,0,0,4,3,0,0.75,20.0,6.0
+750,2018-04-06 19:00:00,509863,"2018 Women's International Friendly, Women's International Friendly",Nigeria,away,0,15,3,0,4,1,7,0.29,3.0,1.0
+751,2018-04-06 19:00:00,509863,"2018 Women's International Friendly, Women's International Friendly",France,home,8,14,0,0,2,8,1,0.71,33.0,14.0
+752,2018-04-09 19:00:00,509945,"2018 Women's International Friendly, Women's International Friendly",Canada,away,0,6,0,0,2,2,4,0.52,2.0,0.0
+753,2018-04-09 19:00:00,509945,"2018 Women's International Friendly, Women's International Friendly",France,home,1,8,1,0,2,3,0,0.48,11.0,5.0
+754,2018-08-03 00:30:00,510884,"2018 Women's International Friendly, Tournament of Nations",Brazil,away,1,14,2,0,1,1,5,0.49,7.0,1.0
+755,2018-08-03 00:30:00,510884,"2018 Women's International Friendly, Tournament of Nations",United States,home,4,14,1,0,6,4,1,0.51,21.0,9.0
+756,2018-08-02 21:45:00,510885,"2018 Women's International Friendly, Tournament of Nations",Japan,away,0,9,1,0,5,3,4,0.55,9.0,3.0
+757,2018-08-02 21:45:00,510885,"2018 Women's International Friendly, Tournament of Nations",Australia,home,2,9,2,0,3,4,3,0.45,19.0,6.0
+758,2018-07-29 23:00:00,510886,"2018 Women's International Friendly, Tournament of Nations",Australia,away,1,16,3,0,2,2,5,0.35,8.0,2.0
+759,2018-07-29 23:00:00,510886,"2018 Women's International Friendly, Tournament of Nations",United States,home,1,9,0,0,4,10,1,0.65,18.0,6.0
+760,2018-07-29 20:15:00,510887,"2018 Women's International Friendly, Tournament of Nations",Brazil,away,2,10,2,0,3,6,2,0.49,13.0,5.0
+761,2018-07-29 20:15:00,510887,"2018 Women's International Friendly, Tournament of Nations",Japan,home,1,5,0,0,2,4,3,0.51,12.0,3.0
+762,2018-07-26 23:00:00,510888,"2018 Women's International Friendly, Tournament of Nations",Japan,away,2,3,0,0,6,1,3,0.48,11.0,3.0
+763,2018-07-26 23:00:00,510888,"2018 Women's International Friendly, Tournament of Nations",United States,home,4,6,0,0,2,2,1,0.52,14.0,8.0
+764,2018-07-26 20:15:00,510889,"2018 Women's International Friendly, Tournament of Nations",Australia,away,3,14,3,0,2,5,3,0.57,6.0,2.0
+765,2018-07-26 20:15:00,510889,"2018 Women's International Friendly, Tournament of Nations",Brazil,home,1,14,2,0,1,2,0,0.43,13.0,4.0
+766,2018-06-12 23:00:00,511228,"2018 Women's International Friendly, Women's International Friendly",China,away,1,15,1,0,5,0,3,0.41,9.0,6.0
+767,2018-06-12 23:00:00,511228,"2018 Women's International Friendly, Women's International Friendly",United States,home,2,10,1,0,2,4,5,0.59,16.0,5.0
+768,2018-06-10 18:00:00,511229,"2018 Women's International Friendly, Women's International Friendly",Germany,away,3,11,1,0,0,1,0,0.54,10.0,6.0
+769,2018-06-10 18:00:00,511229,"2018 Women's International Friendly, Women's International Friendly",Canada,home,2,11,2,0,3,6,3,0.46,6.0,2.0
+770,2018-06-10 03:00:00,511230,"2018 Women's International Friendly, Women's International Friendly",Japan,away,3,,,,,,,,,
+771,2018-06-10 03:00:00,511230,"2018 Women's International Friendly, Women's International Friendly",New Zealand,home,1,,,,,,,,,
+772,2018-06-08 01:00:00,511231,"2018 Women's International Friendly, Women's International Friendly",China,away,0,11,1,0,6,1,2,0.42,3.0,2.0
+773,2018-06-08 01:00:00,511231,"2018 Women's International Friendly, Women's International Friendly",United States,home,1,12,0,0,5,12,2,0.58,11.0,3.0
+774,2018-06-12 15:00:00,513167,"2018 Women's International Friendly, Women's International Friendly",Costa Rica,away,2,0,1,0,0,0,0,0.0,2.0,2.0
+775,2018-06-12 15:00:00,513167,"2018 Women's International Friendly, Women's International Friendly",Chile,home,2,0,0,0,0,0,0,0.0,2.0,2.0
+776,2018-09-05 02:00:00,514206,"2018 Women's International Friendly, Women's International Friendly",Chile,away,0,9,0,0,2,0,8,0.45,4.0,1.0
+777,2018-09-05 02:00:00,514206,"2018 Women's International Friendly, Women's International Friendly",United States,home,4,8,0,0,5,6,1,0.55,24.0,12.0
+778,2018-09-01 03:00:00,514207,"2018 Women's International Friendly, Women's International Friendly",Chile,away,0,10,2,0,0,1,9,0.32,1.0,1.0
+779,2018-09-01 03:00:00,514207,"2018 Women's International Friendly, Women's International Friendly",United States,home,3,10,1,0,2,17,1,0.68,24.0,11.0
+780,2018-09-02 18:00:00,526253,"2018 Women's International Friendly, Women's International Friendly",Brazil,away,0,9,2,0,0,1,2,0.57,3.0,1.0
+781,2018-09-02 18:00:00,526253,"2018 Women's International Friendly, Women's International Friendly",Canada,home,1,16,0,0,1,3,1,0.43,7.0,3.0
+782,2018-10-08 11:35:00,527390,"2018 Women's International Friendly, Yongchuan Tournament",Thailand,away,0,,,,,,,,,
+783,2018-10-08 11:35:00,527390,"2018 Women's International Friendly, Yongchuan Tournament",China,home,2,,,,,,,,,
+784,2018-10-06 11:35:00,527392,"2018 Women's International Friendly, Yongchuan Tournament",China,away,2,,,,,,,,,
+785,2018-10-06 11:35:00,527392,"2018 Women's International Friendly, Yongchuan Tournament",Finland,home,1,,,,,,,,,
+786,2018-10-06 08:00:00,527393,"2018 Women's International Friendly, Yongchuan Tournament",Portugal,away,4,,,,,,,,,
+787,2018-10-06 08:00:00,527393,"2018 Women's International Friendly, Yongchuan Tournament",Thailand,home,1,,,,,,,,,
+788,2018-10-04 11:35:00,527394,"2018 Women's International Friendly, Yongchuan Tournament",Portugal,away,0,,,,,,,,,
+789,2018-10-04 11:35:00,527394,"2018 Women's International Friendly, Yongchuan Tournament",China,home,0,,,,,,,,,
+790,2018-10-04 07:00:00,527395,"2018 Women's International Friendly, Yongchuan Tournament",Finland,away,3,,,,,,,,,
+791,2018-10-04 07:00:00,527395,"2018 Women's International Friendly, Yongchuan Tournament",Thailand,home,1,,,,,,,,,
+792,2018-10-04 16:45:00,527462,"2018 Women's International Friendly, Women's International Friendly",Norway,away,1,10,0,0,5,3,5,0.44,15.0,4.0
+793,2018-10-04 16:45:00,527462,"2018 Women's International Friendly, Women's International Friendly",Sweden,home,2,5,0,0,1,2,3,0.56,11.0,6.0
+794,2018-10-05 19:00:00,527467,"2018 Women's International Friendly, Women's International Friendly",Australia,away,0,6,1,0,5,1,5,0.42,4.0,1.0
+795,2018-10-05 19:00:00,527467,"2018 Women's International Friendly, Women's International Friendly",France,home,2,11,0,0,3,5,1,0.58,20.0,7.0
+796,2018-11-13 08:30:00,527478,"2018 Women's International Friendly, Women's International Friendly",Chile,away,0,5,1,0,3,4,4,0.46,6.0,2.0
+797,2018-11-13 08:30:00,527478,"2018 Women's International Friendly, Women's International Friendly",Australia,home,5,14,1,0,2,5,2,0.54,16.0,9.0
+798,2018-11-11 13:30:00,527479,"2018 Women's International Friendly, Women's International Friendly",Sweden,away,2,15,0,0,0,7,5,0.47,5.0,3.0
+799,2018-11-11 13:30:00,527479,"2018 Women's International Friendly, Women's International Friendly",England,home,0,14,1,0,4,1,1,0.53,14.0,5.0
+800,2018-11-10 20:00:00,527480,"2018 Women's International Friendly, Women's International Friendly",Brazil,away,1,5,1,0,3,4,2,0.48,12.0,4.0
+801,2018-11-10 20:00:00,527480,"2018 Women's International Friendly, Women's International Friendly",France,home,3,16,1,0,2,5,3,0.52,15.0,4.0
+802,2018-11-10 04:30:00,527481,"2018 Women's International Friendly, Women's International Friendly",Chile,away,3,6,2,0,2,1,4,0.41,8.0,4.0
+803,2018-11-10 04:30:00,527481,"2018 Women's International Friendly, Women's International Friendly",Australia,home,2,8,0,0,2,8,1,0.59,18.0,6.0
+804,2018-10-09 19:00:00,527482,"2018 Women's International Friendly, Women's International Friendly",Cameroon,away,0,17,1,0,6,2,2,0.33,5.0,1.0
+805,2018-10-09 19:00:00,527482,"2018 Women's International Friendly, Women's International Friendly",France,home,6,10,0,0,0,9,1,0.67,15.0,8.0
+806,2018-10-09 18:00:00,527483,"2018 Women's International Friendly, Women's International Friendly",Australia,away,1,11,1,0,1,3,5,0.36,9.0,5.0
+807,2018-10-09 18:00:00,527483,"2018 Women's International Friendly, Women's International Friendly",England,home,1,9,0,0,6,3,4,0.64,17.0,6.0
+808,2018-10-09 16:15:00,527484,"2018 Women's International Friendly, Women's International Friendly",Sweden,away,0,14,2,0,4,10,2,0.47,7.0,1.0
+809,2018-10-09 16:15:00,527484,"2018 Women's International Friendly, Women's International Friendly",Italy,home,1,7,0,0,7,4,1,0.53,12.0,3.0
+810,2018-10-06 12:00:00,527485,"2018 Women's International Friendly, Women's International Friendly",Austria,away,1,12,1,0,3,1,9,0.33,7.0,4.0
+811,2018-10-06 12:00:00,527485,"2018 Women's International Friendly, Women's International Friendly",Germany,home,3,7,0,0,3,10,3,0.67,24.0,12.0
+812,2018-10-06 11:30:00,527486,"2018 Women's International Friendly, Women's International Friendly",Brazil,away,0,8,0,0,2,1,7,0.42,11.0,3.0
+813,2018-10-06 11:30:00,527486,"2018 Women's International Friendly, Women's International Friendly",England,home,1,14,2,0,0,5,3,0.58,23.0,8.0
+814,2018-09-01 19:00:00,527487,"2018 Women's International Friendly, Women's International Friendly",Mexico,away,0,,,,,,,,,
+815,2018-09-01 19:00:00,527487,"2018 Women's International Friendly, Women's International Friendly",France,home,0,,,,,,,,,
+816,2018-06-09 23:00:00,527488,"2018 Women's International Friendly, Women's International Friendly",Costa Rica,away,0,,,,,,,,,
+817,2018-06-09 23:00:00,527488,"2018 Women's International Friendly, Women's International Friendly",Chile,home,0,,,,,,,,,
+818,2018-04-01 04:30:00,527489,"2018 Women's International Friendly, Women's International Friendly",Ghana,away,0,,,,,,,,,
+819,2018-04-01 04:30:00,527489,"2018 Women's International Friendly, Women's International Friendly",Japan,home,0,,,,,,,,,
+820,2018-03-26 10:00:00,527490,"2018 Women's International Friendly, Women's International Friendly",Thailand,away,0,,,,,,,,,
+821,2018-03-26 10:00:00,527490,"2018 Women's International Friendly, Women's International Friendly",Australia,home,0,,,,,,,,,
+822,2018-10-06 00:30:00,527525,"CONCACAF Women's Championship, Group Stage",Jamaica,away,0,,,,,,,,,
+823,2018-10-06 00:30:00,527525,"CONCACAF Women's Championship, Group Stage",Canada,home,2,,,,,,,,,
+824,2018-10-04 23:30:00,527527,"CONCACAF Women's Championship, Group Stage",Mexico,away,0,,,,,,,,,
+825,2018-10-04 23:30:00,527527,"CONCACAF Women's Championship, Group Stage",United States,home,6,,,,,,,,,
+826,2018-10-12 02:00:00,527529,"CONCACAF Women's Championship, Group Stage",Canada,away,3,,,,,,,,,
+827,2018-10-12 02:00:00,527529,"CONCACAF Women's Championship, Group Stage",Costa Rica,home,1,,,,,,,,,
+828,2018-10-11 23:30:00,527530,"CONCACAF Women's Championship, Group Stage",Jamaica,away,9,,,,,,,,,
+829,2018-10-11 23:30:00,527530,"CONCACAF Women's Championship, Group Stage",Cuba,home,0,,,,,,,,,
+830,2018-10-10 23:30:00,527531,"CONCACAF Women's Championship, Group Stage",United States,away,7,,,,,,,,,
+831,2018-10-10 23:30:00,527531,"CONCACAF Women's Championship, Group Stage",Trinidad and Tobago,home,0,,,,,,,,,
+832,2018-10-09 00:30:00,527532,"CONCACAF Women's Championship, Group Stage",Canada,away,12,,,,,,,,,
+833,2018-10-09 00:30:00,527532,"CONCACAF Women's Championship, Group Stage",Cuba,home,0,,,,,,,,,
+834,2018-10-08 22:00:00,527533,"CONCACAF Women's Championship, Group Stage",Costa Rica,away,0,,,,,,,,,
+835,2018-10-08 22:00:00,527533,"CONCACAF Women's Championship, Group Stage",Jamaica,home,1,,,,,,,,,
+836,2018-10-07 21:00:00,527535,"CONCACAF Women's Championship, Group Stage",United States,away,5,,,,,,,,,
+837,2018-10-07 21:00:00,527535,"CONCACAF Women's Championship, Group Stage",Panama,home,0,,,,,,,,,
+838,2018-10-15 00:00:00,527624,"CONCACAF Women's Championship, Semifinals",Jamaica,away,0,,,,,,,,,
+839,2018-10-15 00:00:00,527624,"CONCACAF Women's Championship, Semifinals",United States,home,6,,,,,,,,,
+840,2018-10-14 21:00:00,527625,"CONCACAF Women's Championship, Semifinals",Canada,away,7,,,,,,,,,
+841,2018-10-14 21:00:00,527625,"CONCACAF Women's Championship, Semifinals",Panama,home,0,,,,,,,,,
+842,2018-10-18 00:00:00,527661,"CONCACAF Women's Championship, Final",United States,away,2,,,,,,,,,
+843,2018-10-18 00:00:00,527661,"CONCACAF Women's Championship, Final",Canada,home,0,,,,,,,,,
+844,2018-10-17 21:00:00,527662,"CONCACAF Women's Championship, Third Place",Jamaica,away,2,,,,,,,,,
+845,2018-10-17 21:00:00,527662,"CONCACAF Women's Championship, Third Place",Panama,home,2,,,,,,,,,
+846,2018-11-13 19:15:00,527971,"2018 Women's International Friendly, Women's International Friendly",United States,away,1,7,1,0,2,5,2,0.66,10.0,3.0
+847,2018-11-13 19:15:00,527971,"2018 Women's International Friendly, Women's International Friendly",Scotland,home,0,10,0,0,1,6,2,0.34,8.0,2.0
+848,2018-11-08 18:06:00,527972,"2018 Women's International Friendly, Women's International Friendly",United States,away,1,13,2,0,4,7,4,0.65,13.0,5.0
+849,2018-11-08 18:06:00,527972,"2018 Women's International Friendly, Women's International Friendly",Portugal,home,0,15,1,0,2,3,4,0.35,13.0,4.0
+850,2018-11-08 17:00:00,527973,"2018 Women's International Friendly, Women's International Friendly",England,away,3,7,0,0,1,7,3,0.59,17.0,6.0
+851,2018-11-08 17:00:00,527973,"2018 Women's International Friendly, Women's International Friendly",Austria,home,0,13,0,0,4,0,4,0.41,7.0,3.0
+852,2018-11-13 15:00:00,528214,"2018 Women's International Friendly, Women's International Friendly",Spain,away,0,5,0,0,3,3,3,0.5,7.0,4.0
+853,2018-11-13 15:00:00,528214,"2018 Women's International Friendly, Women's International Friendly",Germany,home,0,11,2,0,5,10,4,0.5,13.0,3.0
+854,2018-11-11 05:00:00,528215,"2018 Women's International Friendly, Women's International Friendly",Norway,away,1,9,0,0,1,7,4,0.37,13.0,7.0
+855,2018-11-11 05:00:00,528215,"2018 Women's International Friendly, Women's International Friendly",Japan,home,4,2,0,0,1,5,6,0.63,19.0,9.0
+856,2018-11-08 18:00:00,528216,"2018 Women's International Friendly, Women's International Friendly",Poland,away,1,10,0,0,0,4,4,0.31,13.0,5.0
+857,2018-11-08 18:00:00,528216,"2018 Women's International Friendly, Women's International Friendly",Spain,home,3,8,0,0,2,10,3,0.69,17.0,7.0
+858,2018-11-10 15:00:00,528217,"2018 Women's International Friendly, Women's International Friendly",Italy,away,2,7,1,0,0,1,4,0.45,3.0,2.0
+859,2018-11-10 15:00:00,528217,"2018 Women's International Friendly, Women's International Friendly",Germany,home,5,13,1,0,3,8,0,0.55,19.0,9.0
+860,2018-11-14 01:00:00,528263,"2018 Women's International Friendly, Women's International Friendly",Argentina,away,1,,,,,,,,,
+861,2018-11-14 01:00:00,528263,"2018 Women's International Friendly, Women's International Friendly",Panama,home,1,,,,,,,,,
+862,2018-11-08 22:00:00,528264,"2018 Women's International Friendly, Women's International Friendly",Panama,away,0,,,,,,,,,
+863,2018-11-08 22:00:00,528264,"2018 Women's International Friendly, Women's International Friendly",Argentina,home,4,,,,,,,,,
+864,2019-04-06 11:45:00,528567,"2019 Women's International Friendly, Women's International Friendly",Germany,away,2,12,0,0,5,6,1,0.54,16.0,5.0
+865,2019-04-06 11:45:00,528567,"2019 Women's International Friendly, Women's International Friendly",Sweden,home,1,11,0,0,1,4,3,0.46,5.0,3.0
+866,2019-01-19 19:30:00,528568,"2019 Women's International Friendly, Women's International Friendly",United States,away,1,4,0,0,4,3,6,0.53,8.0,4.0
+867,2019-01-19 19:30:00,528568,"2019 Women's International Friendly, Women's International Friendly",France,home,3,8,0,0,2,8,3,0.47,14.0,9.0
+868,2019-06-18 19:00:00,529187,"2019 FIFA Women's World Cup, Group Stage",Australia,away,4,11,1,0,1,8,2,0.62,13.0,7.0
+869,2019-06-18 19:00:00,529187,"2019 FIFA Women's World Cup, Group Stage",Jamaica,home,1,6,1,0,2,1,3,0.38,11.0,3.0
+870,2019-06-18 19:00:00,529188,"2019 FIFA Women's World Cup, Group Stage",Brazil,away,1,15,2,0,3,7,4,0.51,12.0,4.0
+871,2019-06-18 19:00:00,529188,"2019 FIFA Women's World Cup, Group Stage",Italy,home,0,13,1,0,4,4,3,0.49,12.0,4.0
+872,2019-06-17 19:00:00,529189,"2019 FIFA Women's World Cup, Group Stage",Norway,away,2,12,0,0,3,3,6,0.39,8.0,2.0
+873,2019-06-17 19:00:00,529189,"2019 FIFA Women's World Cup, Group Stage",South Korea,home,1,12,2,0,0,4,0,0.61,23.0,7.0
+874,2019-06-17 19:00:00,529190,"2019 FIFA Women's World Cup, Group Stage",France,away,1,12,1,0,1,9,0,0.69,22.0,4.0
+875,2019-06-17 19:00:00,529190,"2019 FIFA Women's World Cup, Group Stage",Nigeria,home,0,13,3,1,0,2,3,0.31,2.0,0.0
+876,2019-06-17 16:00:00,529191,"2019 FIFA Women's World Cup, Group Stage",Germany,away,4,9,1,0,5,8,1,0.58,23.0,12.0
+877,2019-06-17 16:00:00,529191,"2019 FIFA Women's World Cup, Group Stage",South Africa,home,0,12,3,0,2,1,8,0.42,7.0,1.0
+878,2019-06-17 16:00:00,529192,"2019 FIFA Women's World Cup, Group Stage",Spain,away,0,14,0,0,1,8,0,0.61,24.0,9.0
+879,2019-06-17 16:00:00,529192,"2019 FIFA Women's World Cup, Group Stage",China,home,0,14,1,0,2,0,9,0.39,1.0,0.0
+880,2019-06-16 13:00:00,529193,"2019 FIFA Women's World Cup, Group Stage",Thailand,away,1,5,2,0,1,0,10,0.34,5.0,3.0
+881,2019-06-16 13:00:00,529193,"2019 FIFA Women's World Cup, Group Stage",Sweden,home,5,10,0,0,0,6,2,0.66,34.0,15.0
+882,2019-06-16 16:00:00,529194,"2019 FIFA Women's World Cup, Group Stage",Chile,away,0,11,3,0,2,1,6,0.32,1.0,0.0
+883,2019-06-16 16:00:00,529194,"2019 FIFA Women's World Cup, Group Stage",United States,home,3,15,2,0,1,15,0,0.68,26.0,9.0
+884,2019-06-15 19:00:00,529195,"2019 FIFA Women's World Cup, Group Stage",New Zealand,away,0,5,0,0,2,1,4,0.3,2.0,0.0
+885,2019-06-15 19:00:00,529195,"2019 FIFA Women's World Cup, Group Stage",Canada,home,2,8,0,0,1,8,0,0.7,22.0,6.0
+886,2019-06-15 13:00:00,529196,"2019 FIFA Women's World Cup, Group Stage",Cameroon,away,1,15,3,0,0,3,1,0.42,11.0,2.0
+887,2019-06-15 13:00:00,529196,"2019 FIFA Women's World Cup, Group Stage",Netherlands,home,3,5,0,0,1,0,1,0.58,10.0,4.0
+888,2019-06-14 16:00:00,529197,"2019 FIFA Women's World Cup, Group Stage",Italy,away,5,3,0,0,1,7,2,0.57,13.0,6.0
+889,2019-06-14 16:00:00,529197,"2019 FIFA Women's World Cup, Group Stage",Jamaica,home,0,9,2,0,0,4,1,0.43,12.0,2.0
+890,2019-06-14 19:00:00,529198,"2019 FIFA Women's World Cup, Group Stage",Argentina,away,0,9,2,0,2,0,6,0.36,3.0,2.0
+891,2019-06-14 19:00:00,529198,"2019 FIFA Women's World Cup, Group Stage",England,home,1,11,1,0,3,7,2,0.64,19.0,7.0
+892,2019-06-14 13:00:00,529199,"2019 FIFA Women's World Cup, Group Stage",Scotland,away,1,6,1,0,3,6,4,0.51,12.0,4.0
+893,2019-06-14 13:00:00,529199,"2019 FIFA Women's World Cup, Group Stage",Japan,home,2,11,1,0,0,6,3,0.49,18.0,6.0
+894,2019-06-13 19:00:00,529200,"2019 FIFA Women's World Cup, Group Stage",China,away,1,12,0,0,2,7,1,0.53,17.0,3.0
+895,2019-06-13 19:00:00,529200,"2019 FIFA Women's World Cup, Group Stage",South Africa,home,0,3,1,0,2,3,2,0.47,5.0,1.0
+896,2019-06-13 16:00:00,529201,"2019 FIFA Women's World Cup, Group Stage",Brazil,away,2,7,3,0,0,3,3,0.49,12.0,4.0
+897,2019-06-13 16:00:00,529201,"2019 FIFA Women's World Cup, Group Stage",Australia,home,3,7,0,0,1,4,2,0.51,9.0,5.0
+898,2019-06-12 19:00:00,529202,"2019 FIFA Women's World Cup, Group Stage",Norway,away,1,8,1,0,1,5,3,0.5,5.0,1.0
+899,2019-06-12 19:00:00,529202,"2019 FIFA Women's World Cup, Group Stage",France,home,2,7,1,0,2,9,1,0.5,16.0,5.0
+900,2019-06-12 16:00:00,529203,"2019 FIFA Women's World Cup, Group Stage",Spain,away,0,9,0,0,3,7,7,0.59,16.0,2.0
+901,2019-06-12 16:00:00,529203,"2019 FIFA Women's World Cup, Group Stage",Germany,home,1,8,1,0,4,2,2,0.41,15.0,8.0
+902,2019-06-12 13:00:00,529204,"2019 FIFA Women's World Cup, Group Stage",South Korea,away,0,9,2,0,3,6,1,0.57,15.0,7.0
+903,2019-06-12 13:00:00,529204,"2019 FIFA Women's World Cup, Group Stage",Nigeria,home,2,12,1,0,1,3,7,0.43,12.0,2.0
+904,2019-06-11 19:00:00,529205,"2019 FIFA Women's World Cup, Group Stage",Thailand,away,0,5,1,0,0,0,8,0.25,2.0,2.0
+905,2019-06-11 19:00:00,529205,"2019 FIFA Women's World Cup, Group Stage",United States,home,13,5,0,0,3,10,2,0.75,39.0,21.0
+906,2019-06-11 16:00:00,529206,"2019 FIFA Women's World Cup, Group Stage",Sweden,away,2,13,1,0,3,11,1,0.64,25.0,7.0
+907,2019-06-11 16:00:00,529206,"2019 FIFA Women's World Cup, Group Stage",Chile,home,0,10,2,0,1,0,5,0.36,6.0,1.0
+908,2019-06-11 13:00:00,529207,"2019 FIFA Women's World Cup, Group Stage",Netherlands,away,1,8,0,0,1,8,3,0.69,17.0,3.0
+909,2019-06-11 13:00:00,529207,"2019 FIFA Women's World Cup, Group Stage",New Zealand,home,0,4,0,0,1,1,2,0.31,6.0,3.0
+910,2019-06-10 19:00:00,529208,"2019 FIFA Women's World Cup, Group Stage",Cameroon,away,0,12,2,0,3,4,3,0.35,5.0,1.0
+911,2019-06-10 19:00:00,529208,"2019 FIFA Women's World Cup, Group Stage",Canada,home,1,10,0,0,3,10,1,0.65,16.0,4.0
+912,2019-06-10 16:00:00,529209,"2019 FIFA Women's World Cup, Group Stage",Japan,away,0,6,3,0,0,5,1,0.61,8.0,3.0
+913,2019-06-10 16:00:00,529209,"2019 FIFA Women's World Cup, Group Stage",Argentina,home,0,6,0,0,2,0,3,0.39,5.0,1.0
+914,2019-06-09 16:00:00,529210,"2019 FIFA Women's World Cup, Group Stage",Scotland,away,1,8,2,0,1,2,4,0.44,8.0,4.0
+915,2019-06-09 16:00:00,529210,"2019 FIFA Women's World Cup, Group Stage",England,home,2,8,0,0,3,9,3,0.56,14.0,6.0
+916,2019-06-09 13:30:00,529211,"2019 FIFA Women's World Cup, Group Stage",Jamaica,away,0,9,1,0,3,3,3,0.43,13.0,3.0
+917,2019-06-09 13:30:00,529211,"2019 FIFA Women's World Cup, Group Stage",Brazil,home,3,14,2,0,2,10,3,0.57,18.0,6.0
+918,2019-06-09 11:00:00,529212,"2019 FIFA Women's World Cup, Group Stage",Italy,away,2,19,3,0,8,3,6,0.43,5.0,3.0
+919,2019-06-09 11:00:00,529212,"2019 FIFA Women's World Cup, Group Stage",Australia,home,1,20,1,0,4,6,2,0.57,17.0,7.0
+920,2019-06-08 13:00:00,529213,"2019 FIFA Women's World Cup, Group Stage",China,away,0,19,4,0,1,3,4,0.38,4.0,1.0
+921,2019-06-08 13:00:00,529213,"2019 FIFA Women's World Cup, Group Stage",Germany,home,1,7,1,0,3,8,1,0.62,18.0,5.0
+922,2019-06-08 16:00:00,529214,"2019 FIFA Women's World Cup, Group Stage",South Africa,away,1,13,2,1,0,2,9,0.28,4.0,2.0
+923,2019-06-08 16:00:00,529214,"2019 FIFA Women's World Cup, Group Stage",Spain,home,3,12,1,0,3,5,1,0.72,25.0,12.0
+924,2019-06-08 19:00:00,529215,"2019 FIFA Women's World Cup, Group Stage",Nigeria,away,0,10,2,0,1,5,1,0.43,9.0,1.0
+925,2019-06-08 19:00:00,529215,"2019 FIFA Women's World Cup, Group Stage",Norway,home,3,5,0,0,5,5,1,0.57,10.0,4.0
+926,2019-06-07 19:00:00,529216,"2019 FIFA Women's World Cup, Group Stage",South Korea,away,0,11,0,0,0,1,4,0.4,4.0,1.0
+927,2019-06-07 19:00:00,529216,"2019 FIFA Women's World Cup, Group Stage",France,home,4,11,0,0,2,13,1,0.6,21.0,8.0
+928,2019-05-26 16:00:00,529294,"2019 Women's International Friendly, Women's International Friendly",Mexico,away,0,5,1,0,2,1,7,0.43,3.0,0.0
+929,2019-05-26 16:00:00,529294,"2019 Women's International Friendly, Women's International Friendly",United States,home,3,3,0,0,6,7,0,0.57,25.0,11.0
+930,2019-05-12 20:30:00,529295,"2019 Women's International Friendly, Women's International Friendly",South Africa,away,0,7,0,0,1,0,4,0.3,5.0,2.0
+931,2019-05-12 20:30:00,529295,"2019 Women's International Friendly, Women's International Friendly",United States,home,3,10,0,0,2,8,2,0.7,20.0,7.0
+932,2019-04-08 01:00:00,529296,"2019 Women's International Friendly, Women's International Friendly",Belgium,away,0,10,1,0,2,2,2,0.43,4.0,0.0
+933,2019-04-08 01:00:00,529296,"2019 Women's International Friendly, Women's International Friendly",United States,home,6,6,1,0,1,4,0,0.57,17.0,8.0
+934,2019-04-05 01:30:00,529297,"2019 Women's International Friendly, Women's International Friendly",Australia,away,3,7,1,0,0,1,6,0.5,10.0,3.0
+935,2019-04-05 01:30:00,529297,"2019 Women's International Friendly, Women's International Friendly",United States,home,5,8,2,0,7,11,0,0.5,17.0,11.0
+936,2019-01-22 19:35:00,529298,"2019 Women's International Friendly, Women's International Friendly",United States,away,1,16,0,0,7,4,2,0.48,9.0,3.0
+937,2019-01-22 19:35:00,529298,"2019 Women's International Friendly, Women's International Friendly",Spain,home,0,8,1,0,4,1,2,0.52,4.0,2.0
+938,2019-03-06 01:00:00,529479,"2019 Women's International Friendly, SheBelieves Cup",Brazil,away,0,18,2,0,1,2,5,0.5,11.0,3.0
+939,2019-03-06 01:00:00,529479,"2019 Women's International Friendly, SheBelieves Cup",United States,home,1,8,0,0,3,2,3,0.5,18.0,6.0
+940,2019-03-05 22:25:00,529480,"2019 Women's International Friendly, SheBelieves Cup",England,away,3,7,1,0,2,0,4,0.5,10.0,4.0
+941,2019-03-05 22:25:00,529480,"2019 Women's International Friendly, SheBelieves Cup",Japan,home,0,10,0,0,0,2,1,0.5,16.0,4.0
+942,2019-03-02 21:55:00,529481,"2019 Women's International Friendly, SheBelieves Cup",England,away,2,7,0,0,1,1,2,0.46,6.0,3.0
+943,2019-03-02 21:55:00,529481,"2019 Women's International Friendly, SheBelieves Cup",United States,home,2,7,0,0,2,5,1,0.54,20.0,5.0
+944,2019-03-02 19:00:00,529482,"2019 Women's International Friendly, SheBelieves Cup",Japan,away,3,4,0,0,4,1,4,0.45,11.0,6.0
+945,2019-03-02 19:00:00,529482,"2019 Women's International Friendly, SheBelieves Cup",Brazil,home,1,9,0,0,3,6,3,0.55,22.0,6.0
+946,2019-02-28 00:00:00,529483,"2019 Women's International Friendly, SheBelieves Cup",Japan,away,2,6,1,0,2,4,4,0.45,5.0,2.0
+947,2019-02-28 00:00:00,529483,"2019 Women's International Friendly, SheBelieves Cup",United States,home,2,10,0,0,3,8,0,0.55,13.0,6.0
+948,2019-02-27 21:00:00,529484,"2019 Women's International Friendly, SheBelieves Cup",Brazil,away,1,13,0,0,1,2,5,0.45,10.0,1.0
+949,2019-02-27 21:00:00,529484,"2019 Women's International Friendly, SheBelieves Cup",England,home,2,9,1,0,4,7,0,0.55,16.0,7.0
+950,2019-03-06 07:00:00,530673,"2019 Women's International Friendly, Women's International Friendly",Argentina,away,0,,,,,,,,,
+951,2019-03-06 07:00:00,530673,"2019 Women's International Friendly, Women's International Friendly",Australia,home,3,,,,,,,,,
+952,2019-03-03 08:00:00,530674,"2019 Women's International Friendly, Women's International Friendly",South Korea,away,1,,,,,,,,,
+953,2019-03-03 08:00:00,530674,"2019 Women's International Friendly, Women's International Friendly",Australia,home,4,,,,,,,,,
+954,2019-02-28 08:30:00,530675,"2019 Women's International Friendly, Women's International Friendly",New Zealand,away,0,,,,,,,,,
+955,2019-02-28 08:30:00,530675,"2019 Women's International Friendly, Women's International Friendly",Australia,home,2,,,,,,,,,
+956,2019-01-22 17:00:00,530676,"2019 Women's International Friendly, Women's International Friendly",Sweden,away,0,25,1,0,2,6,1,0.57,15.0,3.0
+957,2019-01-22 17:00:00,530676,"2019 Women's International Friendly, Women's International Friendly",South Africa,home,0,5,0,0,3,0,3,0.43,7.0,1.0
+958,2019-01-19 13:00:00,530677,"2019 Women's International Friendly, Women's International Friendly",Netherlands,away,2,15,2,0,2,5,2,0.62,13.0,4.0
+959,2019-01-19 13:00:00,530677,"2019 Women's International Friendly, Women's International Friendly",South Africa,home,1,3,0,0,6,1,2,0.38,7.0,3.0
+960,2019-01-17 17:00:00,533417,"2019 Women's International Friendly, Women's International Friendly",Norway,away,3,0,1,0,0,0,0,1.0,3.0,3.0
+961,2019-01-17 17:00:00,533417,"2019 Women's International Friendly, Women's International Friendly",Scotland,home,1,0,0,0,0,0,0,0.0,1.0,1.0
+962,2019-01-17 18:00:00,533418,"2019 Women's International Friendly, Women's International Friendly",Belgium,away,1,10,0,0,0,3,4,0.32,3.0,1.0
+963,2019-01-17 18:00:00,533418,"2019 Women's International Friendly, Women's International Friendly",Spain,home,1,11,0,0,2,2,0,0.68,15.0,5.0
+964,2019-05-17 00:00:00,533554,"2019 Women's International Friendly, Women's International Friendly",New Zealand,away,0,4,1,0,1,1,4,0.35,1.0,0.0
+965,2019-05-17 00:00:00,533554,"2019 Women's International Friendly, Women's International Friendly",United States,home,5,8,0,0,7,10,0,0.65,25.0,9.0
+966,2019-01-22 15:15:00,534201,"2019 Women's International Friendly, Women's International Friendly",Wales,away,0,8,0,0,2,2,3,0.48,7.0,5.0
+967,2019-01-22 15:15:00,534201,"2019 Women's International Friendly, Women's International Friendly",Italy,home,2,11,0,0,5,4,5,0.52,20.0,6.0
+968,2019-01-21 15:00:00,534202,"2019 Women's International Friendly, Women's International Friendly",Iceland,away,2,0,1,0,0,0,0,1.0,2.0,2.0
+969,2019-01-21 15:00:00,534202,"2019 Women's International Friendly, Women's International Friendly",Scotland,home,1,0,0,0,0,0,0,0.0,1.0,1.0
+970,2019-01-18 17:00:00,534203,"2019 Women's International Friendly, Women's International Friendly",Chile,away,1,17,3,0,2,2,4,0.37,5.0,2.0
+971,2019-01-18 17:00:00,534203,"2019 Women's International Friendly, Women's International Friendly",Italy,home,2,11,1,0,2,6,2,0.63,22.0,6.0
+972,2019-01-22 17:00:00,534514,"2019 Women's International Friendly, Women's International Friendly",Norway,away,0,5,0,0,3,5,1,0.44,9.0,3.0
+973,2019-01-22 17:00:00,534514,"2019 Women's International Friendly, Women's International Friendly",Canada,home,1,8,1,0,11,4,3,0.56,5.0,2.0
+974,2019-06-01 12:00:00,536867,"2019 Women's International Friendly, Women's International Friendly",New Zealand,away,1,10,1,0,2,3,4,0.35,9.0,4.0
+975,2019-06-01 12:00:00,536867,"2019 Women's International Friendly, Women's International Friendly",England,home,0,8,0,0,1,18,3,0.65,15.0,4.0
+976,2019-05-25 12:00:00,536868,"2019 Women's International Friendly, Women's International Friendly",Denmark,away,0,13,0,0,1,8,0,0.5,12.0,4.0
+977,2019-05-25 12:00:00,536868,"2019 Women's International Friendly, Women's International Friendly",England,home,2,8,0,0,4,1,4,0.5,10.0,2.0
+978,2019-04-09 18:00:00,536869,"2019 Women's International Friendly, Women's International Friendly",Spain,away,1,8,1,0,2,7,3,0.63,16.0,5.0
+979,2019-04-09 18:00:00,536869,"2019 Women's International Friendly, Women's International Friendly",England,home,2,8,1,0,2,1,4,0.37,6.0,5.0
+980,2019-04-05 18:15:00,536870,"2019 Women's International Friendly, Women's International Friendly",Canada,away,1,7,1,0,0,3,2,0.48,13.0,5.0
+981,2019-04-05 18:15:00,536870,"2019 Women's International Friendly, Women's International Friendly",England,home,0,5,0,0,4,7,4,0.52,8.0,2.0
+982,2019-04-05 18:00:00,536930,"2019 Women's International Friendly, Women's International Friendly",Mexico,away,0,10,0,0,1,1,8,0.26,1.0,1.0
+983,2019-04-05 18:00:00,536930,"2019 Women's International Friendly, Women's International Friendly",Netherlands,home,2,12,0,0,4,3,1,0.74,21.0,10.0
+984,2019-02-28 20:00:00,536931,"2019 Women's International Friendly, Women's International Friendly",Germany,away,1,12,3,0,0,2,2,0.48,4.0,2.0
+985,2019-02-28 20:00:00,536931,"2019 Women's International Friendly, Women's International Friendly",France,home,0,11,0,0,1,6,1,0.52,14.0,2.0
+986,2019-03-04 00:00:00,537052,"2019 Women's International Friendly, Women's International Friendly",Chile,away,2,13,1,0,0,0,0,0.65,13.0,3.0
+987,2019-03-04 00:00:00,537052,"2019 Women's International Friendly, Women's International Friendly",Jamaica,home,3,11,3,0,2,1,1,0.35,6.0,4.0
+988,2019-03-01 00:00:00,537053,"2019 Women's International Friendly, Women's International Friendly",Chile,away,0,8,1,0,8,4,5,0.63,10.0,5.0
+989,2019-03-01 00:00:00,537053,"2019 Women's International Friendly, Women's International Friendly",Jamaica,home,1,9,1,0,5,4,5,0.37,15.0,6.0
+990,2019-03-04 20:00:00,537054,"2019 Women's International Friendly, Women's International Friendly",Uruguay,away,0,15,2,0,1,1,5,0.22,0.0,0.0
+991,2019-03-04 20:00:00,537054,"2019 Women's International Friendly, Women's International Friendly",France,home,6,16,1,0,2,5,0,0.78,22.0,11.0
+992,2019-05-31 19:00:00,537093,"2019 Women's International Friendly, Women's International Friendly",China,away,1,9,0,0,4,3,4,0.44,3.0,1.0
+993,2019-05-31 19:00:00,537093,"2019 Women's International Friendly, Women's International Friendly",France,home,2,5,0,0,1,3,0,0.56,14.0,6.0
+994,2019-05-25 14:00:00,537094,"2019 Women's International Friendly, Women's International Friendly",Thailand,away,0,14,2,0,0,0,12,0.24,1.0,0.0
+995,2019-05-25 14:00:00,537094,"2019 Women's International Friendly, Women's International Friendly",France,home,3,3,0,0,2,10,0,0.76,34.0,15.0
+996,2019-04-08 19:00:00,537095,"2019 Women's International Friendly, Women's International Friendly",Denmark,away,0,9,0,0,4,1,4,0.49,5.0,2.0
+997,2019-04-08 19:00:00,537095,"2019 Women's International Friendly, Women's International Friendly",France,home,4,9,1,0,0,11,2,0.51,23.0,9.0
+998,2019-04-04 19:00:00,537096,"2019 Women's International Friendly, Women's International Friendly",Japan,away,1,4,0,0,2,1,4,0.49,6.0,4.0
+999,2019-04-04 19:00:00,537096,"2019 Women's International Friendly, Women's International Friendly",France,home,3,7,0,0,4,12,3,0.51,24.0,7.0
+1000,2019-01-21 18:00:00,537147,"2019 Women's International Friendly, Women's International Friendly",Chile,away,0,14,0,0,4,1,4,0.49,9.0,1.0
+1001,2019-01-21 18:00:00,537147,"2019 Women's International Friendly, Women's International Friendly",Catalunya Women,home,0,9,0,0,5,4,1,0.51,10.0,4.0
+1002,2019-04-09 14:00:00,538419,"2019 Women's International Friendly, Women's International Friendly",Japan,away,2,4,0,0,1,2,7,0.46,7.0,4.0
+1003,2019-04-09 14:00:00,538419,"2019 Women's International Friendly, Women's International Friendly",Germany,home,2,4,0,0,6,7,1,0.54,22.0,9.0
+1004,2019-04-09 16:30:00,538759,"2019 Women's International Friendly, Women's International Friendly",Chile,away,0,14,2,0,0,2,7,0.37,4.0,1.0
+1005,2019-04-09 16:30:00,538759,"2019 Women's International Friendly, Women's International Friendly",Netherlands,home,7,12,1,0,0,9,1,0.63,24.0,14.0
+1006,2019-04-09 16:00:00,538993,"2019 Women's International Friendly, Women's International Friendly",Norway,away,0,6,1,0,3,13,1,0.61,14.0,1.0
+1007,2019-04-09 16:00:00,538993,"2019 Women's International Friendly, Women's International Friendly",New Zealand,home,1,8,0,0,5,2,1,0.39,9.0,2.0
+1008,2019-04-09 17:10:00,538994,"2019 Women's International Friendly, Women's International Friendly",Sweden,away,2,9,0,0,0,3,1,0.57,11.0,4.0
+1009,2019-04-09 17:10:00,538994,"2019 Women's International Friendly, Women's International Friendly",Austria,home,0,10,1,0,1,2,2,0.43,9.0,1.0
+1010,2019-04-09 16:30:00,538995,"2019 Women's International Friendly, Women's International Friendly",Ireland,away,1,11,2,0,3,4,3,0.26,5.0,3.0
+1011,2019-04-09 16:30:00,538995,"2019 Women's International Friendly, Women's International Friendly",Italy,home,2,6,0,0,3,10,2,0.74,18.0,6.0
+1012,2019-04-08 18:00:00,538996,"2019 Women's International Friendly, Women's International Friendly",Brazil,away,0,15,2,0,7,7,2,0.61,16.0,6.0
+1013,2019-04-08 18:00:00,538996,"2019 Women's International Friendly, Women's International Friendly",Scotland,home,1,12,3,0,1,1,6,0.39,7.0,3.0
+1014,2019-04-05 17:00:00,538997,"2019 Women's International Friendly, Women's International Friendly",Chile,away,1,7,2,0,3,0,9,0.46,4.0,3.0
+1015,2019-04-05 17:00:00,538997,"2019 Women's International Friendly, Women's International Friendly",Scotland,home,1,12,3,0,4,5,2,0.54,18.0,10.0
+1016,2019-04-05 16:30:00,538998,"2019 Women's International Friendly, Women's International Friendly",Brazil,away,1,18,3,0,1,0,4,0.34,10.0,3.0
+1017,2019-04-05 16:30:00,538998,"2019 Women's International Friendly, Women's International Friendly",Spain,home,2,15,1,0,4,12,2,0.66,17.0,6.0
+1018,2019-04-05 16:00:00,538999,"2019 Women's International Friendly, Women's International Friendly",Italy,away,1,9,2,0,0,7,3,0.61,9.0,4.0
+1019,2019-04-05 16:00:00,538999,"2019 Women's International Friendly, Women's International Friendly",Poland,home,1,14,1,0,2,5,3,0.39,9.0,4.0
+1020,2019-04-09 07:45:00,539035,"2019 Women's International Friendly, Women's International Friendly",Iceland,away,1,10,0,0,0,1,5,0.41,6.0,1.0
+1021,2019-04-09 07:45:00,539035,"2019 Women's International Friendly, Women's International Friendly",South Korea,home,1,6,0,0,2,3,0,0.59,14.0,6.0
+1022,2019-04-06 05:00:00,539036,"2019 Women's International Friendly, Women's International Friendly",Iceland,away,3,12,0,0,4,1,7,0.29,4.0,3.0
+1023,2019-04-06 05:00:00,539036,"2019 Women's International Friendly, Women's International Friendly",South Korea,home,2,7,0,0,3,10,0,0.71,25.0,9.0
+1024,2019-05-31 16:45:00,539099,"2019 Women's International Friendly, Women's International Friendly",South Korea,away,0,4,0,0,5,4,3,0.53,8.0,4.0
+1025,2019-05-31 16:45:00,539099,"2019 Women's International Friendly, Women's International Friendly",Sweden,home,1,13,0,0,1,3,4,0.47,12.0,4.0
+1026,2019-04-08 14:00:00,539100,"2019 Women's International Friendly, Women's International Friendly",Nigeria,away,1,11,1,0,1,4,3,0.37,6.0,3.0
+1027,2019-04-08 14:00:00,539100,"2019 Women's International Friendly, Women's International Friendly",Canada,home,2,7,0,0,2,4,2,0.63,14.0,5.0
+1028,2019-06-01 16:15:00,539180,"2019 Women's International Friendly, Women's International Friendly",Australia,away,0,8,2,0,4,10,2,0.56,15.0,5.0
+1029,2019-06-01 16:15:00,539180,"2019 Women's International Friendly, Women's International Friendly",Netherlands,home,3,11,2,0,7,3,5,0.44,10.0,5.0
+1030,2019-06-04 18:00:00,539525,"2019 Women's International Friendly, Women's International Friendly",New Zealand,away,0,9,0,0,3,14,3,0.66,21.0,3.0
+1031,2019-06-04 18:00:00,539525,"2019 Women's International Friendly, Women's International Friendly",Wales,home,1,13,2,0,3,3,3,0.34,9.0,4.0
+1032,2019-05-28 18:35:00,539526,"2019 Women's International Friendly, Women's International Friendly",Jamaica,away,2,12,2,0,1,0,5,0.3,8.0,3.0
+1033,2019-05-28 18:35:00,539526,"2019 Women's International Friendly, Women's International Friendly",Scotland,home,3,4,0,0,5,7,1,0.7,19.0,8.0
+1034,2019-04-07 14:00:00,539527,"2019 Women's International Friendly, Women's International Friendly",Jamaica,away,1,11,0,0,0,5,3,0.37,11.0,4.0
+1035,2019-04-07 14:00:00,539527,"2019 Women's International Friendly, Women's International Friendly",South Africa,home,1,5,1,0,5,5,3,0.63,19.0,5.0
+1036,2019-06-02 18:00:00,540028,"2019 Women's International Friendly, Women's International Friendly",Norway,away,7,14,0,0,3,5,4,0.64,17.0,11.0
+1037,2019-06-02 18:00:00,540028,"2019 Women's International Friendly, Women's International Friendly",South Africa,home,2,6,2,0,1,2,4,0.36,12.0,6.0
+1038,2019-06-02 11:50:00,540029,"2019 Women's International Friendly, Women's International Friendly",Spain,away,1,14,1,0,3,4,1,0.52,12.0,4.0
+1039,2019-06-02 11:50:00,540029,"2019 Women's International Friendly, Women's International Friendly",Japan,home,1,6,0,0,4,2,3,0.48,6.0,2.0
+1040,2019-05-30 15:45:00,540030,"2019 Women's International Friendly, Women's International Friendly",Chile,away,0,4,0,0,1,3,10,0.25,1.0,0.0
+1041,2019-05-30 15:45:00,540030,"2019 Women's International Friendly, Women's International Friendly",Germany,home,2,10,2,0,2,12,0,0.75,32.0,12.0
+1042,2019-05-17 16:45:00,540058,"2019 Women's International Friendly, Women's International Friendly",Cameroon,away,0,14,2,0,1,4,6,0.28,6.0,5.0
+1043,2019-05-17 16:45:00,540058,"2019 Women's International Friendly, Women's International Friendly",Spain,home,4,11,1,0,1,6,5,0.72,21.0,11.0
+1044,2019-05-22 19:00:00,540131,"2019 Women's International Friendly, Women's International Friendly",New Zealand,away,2,,,,,,,,,
+1045,2019-05-22 19:00:00,540131,"2019 Women's International Friendly, Women's International Friendly",Mexico,home,1,,,,,,,,,
+1046,2019-05-18 17:00:00,540132,"2019 Women's International Friendly, Women's International Friendly",Mexico,away,0,6,1,0,1,1,3,0.37,2.0,1.0
+1047,2019-05-18 17:00:00,540132,"2019 Women's International Friendly, Women's International Friendly",Canada,home,3,8,0,0,4,7,1,0.63,20.0,6.0
+1048,2019-05-19 22:30:00,540277,"2019 Women's International Friendly, Women's International Friendly",Colombia,away,1,17,4,0,3,4,3,0.52,11.0,4.0
+1049,2019-05-19 22:30:00,540277,"2019 Women's International Friendly, Women's International Friendly",Chile,home,1,16,2,0,0,4,3,0.48,12.0,3.0
+1050,2019-05-24 17:00:00,540310,"2019 Women's International Friendly, Women's International Friendly",Canada,away,0,10,0,0,2,1,0,0.47,5.0,2.0
+1051,2019-05-24 17:00:00,540310,"2019 Women's International Friendly, Women's International Friendly",Spain,home,0,7,0,0,2,1,2,0.53,3.0,0.0
+1052,2019-05-23 23:10:00,540311,"2019 Women's International Friendly, Women's International Friendly",Uruguay,away,1,15,2,0,2,2,4,0.32,8.0,4.0
+1053,2019-05-23 23:10:00,540311,"2019 Women's International Friendly, Women's International Friendly",Argentina,home,3,10,3,0,2,3,3,0.68,12.0,7.0
+1054,2019-05-29 13:00:00,540313,"2019 Women's International Friendly, Women's International Friendly",Switzerland,away,1,13,1,0,3,4,4,0.47,9.0,5.0
+1055,2019-05-29 13:00:00,540313,"2019 Women's International Friendly, Women's International Friendly",Italy,home,3,11,0,0,4,6,4,0.53,23.0,7.0
